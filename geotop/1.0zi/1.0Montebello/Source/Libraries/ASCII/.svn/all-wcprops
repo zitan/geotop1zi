@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII
+END
+tabs.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/tabs.h
+END
+import_ascii.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/import_ascii.c
+END
+write_ascii.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/write_ascii.c
+END
+extensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/extensions.h
+END
+import_ascii.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/import_ascii.h
+END
+write_ascii.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/write_ascii.h
+END
+rw_maps.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/rw_maps.c
+END
+tabs.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/tabs.c
+END
+rw_maps.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/repos/geotop/!svn/ver/431/trunk/1.0Montebello/Source/Libraries/ASCII/rw_maps.h
+END

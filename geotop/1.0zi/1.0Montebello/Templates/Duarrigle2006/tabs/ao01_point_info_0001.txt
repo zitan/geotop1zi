@@ -1,0 +1,60 @@
+/** The main properties of the pixel E=         20.000 N=         30.000, row=  20 col=  30 are:
+ Elevation above sea level:    296.482 m
+ Gauckler-Strickler [m^1/3/s]: 0.100000
+ Residual water content[-] of the layer 1: 0.090000
+ Residual water content[-] of the layer 2: 0.090000
+ Residual water content[-] of the layer 3: 0.090000
+ Residual water content[-] of the layer 4: 0.090000
+ Saturated water content[-] of the layer 1: 0.385000
+ Saturated water content[-] of the layer 2: 0.385000
+ Saturated water content[-] of the layer 3: 0.385000
+ Saturated water content[-] of the layer 4: 0.385000
+ Alpha of van Genuchten[mm^-1] of the layer 1: 0.087000
+ Alpha of van Genuchten[mm^-1] of the layer 2: 0.087000
+ Alpha of van Genuchten[mm^-1] of the layer 3: 0.087000
+ Alpha of van Genuchten[mm^-1] of the layer 4: 0.087000
+ n of van Genuchten[-] of the layer 1: 1.131000
+ n of van Genuchten[-] of the layer 2: 1.131000
+ n of van Genuchten[-] of the layer 3: 1.131000
+ n of van Genuchten[-] of the layer 4: 1.131000
+ m of van Genuchten[-] of the layer 1: 0.115827
+ m of van Genuchten[-] of the layer 2: 0.115827
+ m of van Genuchten[-] of the layer 3: 0.115827
+ m of van Genuchten[-] of the layer 4: 0.115827
+ v of van Genuchten[-] of the layer 1: 0.500000
+ v of van Genuchten[-] of the layer 2: 0.500000
+ v of van Genuchten[-] of the layer 3: 0.500000
+ v of van Genuchten[-] of the layer 4: 0.500000
+ Water content of wilting point [-] of the layer 1: 0.170000
+ Water content of wilting point [-] of the layer 2: 0.170000
+ Water content of wilting point [-] of the layer 3: 0.170000
+ Water content of wilting point [-] of the layer 4: 0.170000
+ Water content of field capacity [-] of the layer 1: 0.360000
+ Water content of field capacity [-] of the layer 2: 0.360000
+ Water content of field capacity [-] of the layer 3: 0.360000
+ Water content of field capacity [-] of the layer 4: 0.360000
+ Kv_sat of layer 1 [mm/s]: 0.000013
+ Kv_sat of layer 2 [mm/s]: 0.000013
+ Kv_sat of layer 3 [mm/s]: 0.000013
+ Kv_sat of layer 4 [mm/s]: 0.000013
+ Kh_sat of layer 1 [mm/s]: 0.000013
+ Kh_sat of layer 2 [mm/s]: 0.000013
+ Kh_sat of layer 3 [mm/s]: 0.000013
+ Kh_sat of layer 4 [mm/s]: 0.000013
+ Terrain elevation [m]: 296.481600
+ Sky view factor [-]: 0.999341
+ The pixel-type is 0 
+ Drainage Direction is 8 
+ Slope along Drainage Direction [-]: 0.089862 
+ Aspect [deg] [0=Nord, clockwise]: 157.623900 
+ Mean slope of the pixel [deg]: 5.287161 
+ Land use number is 5 
+ The root fraction [-] of layer 1: 1.000000
+ The root fraction [-] of layer 2: 0.000000
+ The root fraction [-] of layer 3: 0.000000
+ The root fraction [-] of layer 4: 0.000000
+ Surface fraction of land covered by vegetation [-]: 0.990000 
+ Leaf and Stem Area Index [-]: 2.050000 
+ Momentum roughness length z0soil [m]: 0.000020 
+ Vegetation height [m]: 0.200000 
+ */ 

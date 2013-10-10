@@ -1,0 +1,2 @@
+DATE[day/month/year hour:min],t[days],JDfrom0,JD,snowDav,SWEav,Tav,Tsav,perc.SFA,perc.SCA
+2/1/2006  0:00,0.083333,732679.000000,1.0000000.000000,0.000000,0.000000,0.000000,100.000000,0.000000

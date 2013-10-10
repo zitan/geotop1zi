@@ -1,0 +1,667 @@
+/**  All the physical parameters of the simulation of GEOTOP */
+
+index{19} 
+
+
+/**  1 block - LAND USE CLASSES AND PARAMETERS
+row 1   Classes of land use (each number do not corrisponde to a particolar land-use, because
+                            each has the properties of the row below in the same column)
+row 2   Bluff-rough surface (=1), Vegetated surface (=2)
+row 3   z0 [mm] (used only for Bluff-rough surface) 
+row 4   z0 [mm] for snow covered terrain 
+row 5   Threshold on snow depth to change roughness [mm]
+row 6   Canopy height hc [m] (hc is used to calculate roughness, only for Vegetated surface) 
+row 7   ratio hc/z0 (only for Vegetated surface)
+row 8   ratio z0/z0T (only for Vegetated surface)
+row 9   Canopy fraction fc (cop) [-] (=0 for lakes and sea)
+row 10  Root depth [mm] (it is used to calculate root_fraction for each layer, it must be positive)
+row 11  Leaf Area Index (LAI) [L^2/L^2]
+row 12  Albedo without snow [-]
+row 13  Coefficent of (C_m) of the law of uniform motion on the surface (v_sup=C_m*h_sup^gamma_m*i_DD^0.5) [m^(1-gamma_m)/s] (calibration parameter) [0.01-5.0]
+row 14  Variation of the hydraulic conductivity caused to the land use (for instance, for the presence of
+        the litter), if you put 1.0 no variation is introduced [0FF-100]
+row 15  The smallest value of h_sup at which the surface is enterely covered with water h_c [mm] [1-100]
+row 16  Soil heat flux at the bottom of the domain (positive if entering the soil domain) [W/m2] [0.0]
+
+Pay attention -> use the number 11 for the class of use soil LAKE, 12 for SEA, 13 for GLACIER, 99 if you have the
+                 same land use in all the basin and you have no matrix of land use map
+
+row1: Classes: 0=other 1=wood 2=grass 3=urban 11=lake 12=sea */ 
+
+1: float matrix land_classes {16,19}
+1	2	3	4	5	6	7	8	9	10	17	18	13	14	15	16	29	31	32
+2	2	2	2	2	2	2	2	2	2	2	2	2	1	2	2	2	2	2
+10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10
+1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+10	9	9	9	9	9	9	9	9	9	9	9	9	9	9	9	9	9	9
+5.5	2	0.2	0.3	0.2	1.1	0.2	4.8	0.2	6	0.2	0.2	0.2	0.2	0.3	0.2	0.1	0.1	0.1
+10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10
+10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10
+0.99	0.99	0.99	0.99	0.99	0.99	0.95	0.99	0.95	0.95	0.95	0.95	0.95	0.95	0.95	0.5	0.5	0.5	0.5
+500	300	100	100	100	100	100	500	100	100	900	100	100	100	100	100	10	10	10
+4.5	2.0	2.05	0.5	2.05	2.5	2.05	2.05	2.05	2.05	2.05	2.05	1.5	2.05	1.05	2.05	1.05	1.05	1.05
+0.25	0.25	0.25	0.25	0.25	0.25	0.25	0.25	0.25	0.25	0.25	0.25	0.25	2.05	2.05	2.05	0.25	0.25	0.25
+0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01
+1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+
+
+
+
+
+
+
+
+
+
+/** 2 block - SOIL TYPE CLASSES AND PARAMETERS
+- if state_soil=0 in block 17
+row 1  Classes of soil type
+row 2  Kh_sat HORIZZONTAL SATURATED HYDRAULIC CONDUCTIVITY (ON THE TOP SOIL) [m/s] (eventual calibration parameter) [10E-2-10E-7]
+row 3  teta_r THE RESIDUAL WATER CONTENT (eventual calibration parameter) [0.02-0.24], it must be less than 0.3
+row 4  teta_sat THE WATER CONTENT OF SATURED SOIL (more or less the POROSITY) (eventual calibration parameter) [0.3-0.65], it must be greater than 0.3
+row 5  alpha THE VAN GENUCHTEN PARAMETER alpha [cm^-1] (eventual calibration parameter) [0.005-0.5]
+row 6  n THE VAN GENUCHTEN PARAMETER n (eventual calibration parameter but can be correlated to m) [0.5-5.0]
+row 7  k_solid Thermal conductivity of soil matrix [W m^-1 K^-1], from Farouki (1981) (=(8.80*(%sand) + 2.92*(%clay))/(%sand+%clay))
+
+row 8  c_solid Heat capacity of soil matrix [J m^-3 K^-1], from de Vries (1963) (=1E+6*(2.128*(%sand)+2.385*(%clay))/(%sand+%clay))
+row 9  teta_wp Water content of wilting point [0.03-0.27] (0.15) (less than teta_sat but greater than teta_r)
+row10  teta_fc Water content of field capacity [0.08-0.37] (0.30) (less than teta_sat but greater than teta_r)
+row11  the D50[um]
+
+
+
+
+ Typical values of previuos soil parameter (from the results of Rawls et al. (1982)); teta_wp and teta_fc are taken from
+ 'Average hydraulic properties of ARS soil texture classes', draft dated February, 2000 by J. Schake
+ USDA classification - Kv_sat[m/s] - teta_r - teta_sat - alpha -  n    - teta_wp - teta_fc
+ sand                  0.000058333    0.020      0.417   0.138   1.592   0.03      0.08
+ loamy-sand            0.000016967    0.035      0.401   0.115   1.474   0.06      0.15
+ sandy-loam            0.000007194    0.041      0.412   0.068   1.322   0.09      0.21
+ loam                  0.000001888    0.027      0.434   0.090   1.220   0.14      0.29
+ silt-loam             0.000003666    0.015      0.486   0.048   1.211   0.12      0.32
+ sandy-clay-loam       0.000001194    0.068      0.330   0.036   1.250   0.17      0.27
+ clay-loam             0.000000638    0.075      0.390   0.039   1.194   0.21      0.34
+ silty-clay-loam       0.000000416    0.040      0.432   0.031   1.151   0.21      0.36
+ sandy-clay            0.000000333    0.109      0.421   0.034   1.168   0.23      0.31
+ silty-clay            0.000000250    0.056      0.423   0.029   1.127   0.25      0.37
+ clay                  0.000000166    0.090      0.385   0.027   1.131   0.27      0.36
+ Pay attention -> the values suggested for the saturated conductivity are to be referred, perhaps, to the vertical; to find the
+                  values of the lateral saturated hydraulic conductivity you have to divide the suitable value for Kv_Kh
+
+- otherwise, if state_soil=1 (the pedo-transfer functions of Vereecken et al. (1989) are used)
+row 1  Classes of soil type
+row 2  Kh_sat HORIZZONTAL SATURATED HYDRAULIC CONDUCTIVITY (ON THE TOP SOIL) [m/s] (eventual calibration parameter) [10E-2-10E-7]
+row 3  sand percentage [%] [0-100]
+row 4  clay percentage [%] [0-100] (remember -> %clay = 100 - %sand - %silt)
+row 5  organic carbon (percentage in comparison to the total solid volume) [%]
+row 6  bulk density [g/cm^3]
+row 7  m THE VAN GENUCHTEN PARAMETER m [0.5-1.0] (m=1 for Vereecken's hypothesis)
+row 8  v THE VAN GENUCHTEN PARAMETER v (parameter to fix) [-16.0 - 2.0] (0.5)
+row 9  teta_wp water content of wilting point [0.03-0.27] (0.15) (less than teta_sat but greater than teta_r)
+row10  teta_fc water content of field capacity [0.08-0.37] (0.30) (less than teta_sat but greater than teta_r)
+row11  D50[um]
+
+
+
+
+
+
+ Typical values of previuos soil properties (source is 'Average hydraulic properties of ARS soil texture classes',
+ draft dated February, 2000 by J. Schake)
+ USDA classification - Kh_sat[m/s] - %sand - %clay - bulk density[g/cm^3]   - teta_wp - teta_fc
+ sand                  0.000106694   94.83    2.27   1.49		      0.03      0.08
+ loamy-sand            0.000030194   85.23    6.53   1.52		      0.06      0.15
+ sandy-loam            0.000014555   69.28   12.48   1.57		      0.09      0.21
+ loam                  0.000005472   41.00   20.69   1.49		      0.14      0.29
+ silt-loam             0.000011000   19.28   17.11   1.42		      0.12      0.32
+ sandy-clay-loam       0.000006666   60.97   26.33   1.60		      0.17      0.27
+ clay-loam             0.000004916   30.08   33.46   1.43		      0.21      0.34
+ silty-clay-loam       0.000012694    9.04   33.05   1.38		      0.21      0.36
+ sandy-clay            0.000003305   50.32   39.30   1.57		      0.23      0.31
+ silty-clay            0.000008194    8.18   44.58   1.35		      0.25      0.37
+ clay                  0.000012694   30.08   33.46   1.39		      0.27      0.36
+ silt                  0.000023861    4.50    8.30   1.28 		      0.08      0.28
+ 
+
+Pay attention -> the values suggested for the saturated conductivity are to be referred, perhaps, to the vertical; to find the
+                  values of the lateral saturated hydraulic conductivity you have to divide the suitable value for Kv_Kh
+
+Pay attention -> if there are some files with this quantities in the working path, the value in the matrix below will not be used; 
+		 use the value 99 if you have the same soil type in all the basin and you have no matrix of soil use map
+
+1=sandy-loam,permeability<0.63
+2=loam,permeability<0.63
+3=silt-loam,permeability<0.63
+4=clay,permeability<0.63
+5=loamy-sand,permeability<0.63
+6=sandy-loam,permeability=0.63-2.00
+7=loam,permeability=0.63-2.00
+8=silt-loam,permeability=0.63-2.00
+9=clay,permeability=0.63-2.00
+10=sand,permeability=2.00-6.30
+11=loamy-sand,permeability=2.00-6.30
+12=sandy-loam,permeability=2.00-6.30
+13=sandy-loam,permeability=2.00-6.30
+14=loam,permeability=2.00-6.30
+15=silt-loam,permeability=2.00-6.30
+16=sand,permeability>6.30
+17=loamy-sand,permeability>6.30
+18=water
+99=averaged soil type 
+
+
+
+
+if state_soil=0 in block 17
+ClasseSoil  Kh_sat teta_r teta_sat alpha n k_solid c_solid teta_wp teta_fc 
+if state_soil=1
+ClasseSoil  Kh_sat sand[%] clay[%] organic[%] density[g/cm^3] m(1) v(0.5) teta_wp teta_fc
+
+
+*/
+2: double matrix soil_classes {11,11}
+1	4	5	6	13	15	19	22	23	24	34
+0.00001	0.00001	0.00001	0.00001	0.00001	0.00001	0.00001	0.00001	0.00001	0.00001	0.00001
+0.05	0.05	0.05	0.05	0.05	0.05	0.05	0.05	0.1	0.15	0.05
+0.5	0.5	0.65	0.43	0.43	0.43	0.43	0.43	0.54	0.58	0.43
+0.396	0.837	0.01	0.246	0.396	0.246	0.298	0.392	0.01	0.02	0.246
+2.1	2.1	1.1	1.5	1.4	1.4	1.3	2.4	1.1	1.1	2.1
+8.61	8.61	8.2	7.18	7.55	7.53	5.1	5.71	8.2	8.2	6.96
+2136290	2136290	2154358	2198768	2182826	2183353	2289814	2263263	2136290	2136290	2208552
+0.17	0.17	0.17	0.17	0.17	0.17	0.17	0.17	0.17	0.17	0.17
+0.37	0.37	0.37	0.37	0.37	0.37	0.37	0.37	0.37	0.37	0.37
+130	150	150	130	150	130	150	150	150	150	150
+/**0.00002	0.000002	0.0000001	0.00003	0.00003	0.00005	0.000004	0.0000005	0.000003	0.000001	0.000003*/
+/**300	300	250	350	350	350	350	350	150	50	350*/
+
+
+
+
+
+
+
+
+
+
+
+/**  3 block SOIL LAYER THICKNESSES d[mm]
+     The sum of all layers has to be at least 1000 mm
+     The minimum number of layer is 3
+     The minimum thickness of a layer is 10 mm but
+     it adviced at least 50 mm for numerical stability   */
+
+/**3: float vector d {150, 150, 400, 500}*/
+3: float vector d {100, 150, 450, 500}
+
+
+ 
+
+
+
+
+
+/**  4 block VARIATION OF SOIL PROPERTIES WITH DEPTH
+- if state_soil=0 in geotop.inpts
+row 1  Kh_sat
+row 2  teta_r
+row 3  teta_sat
+row 4  alpha
+row 5  n
+row 6  k_solid
+row 7  c_solid
+
+- otherwise, if state_soil=1 (the pedo-transfer functions of Vereecken et al. (1989) are used)
+row 1  Kh_sat
+row 2  %sand
+row 3  %clay
+row 4  Corg
+row 5  bulk density
+row 6  m
+row 7  v
+
+Pay attention -> the columns correspond to the layers (length of vector of block 3) from 1 to n;
+                 for simplicity, use the value 1.0 for the first layer (layer of reference)     */
+
+4: double matrix soil_z {7,4}
+1.0   		1.0   		1.0		1.0
+1.0   		1.0   		1.0		1.0
+1.0   		1.0   		1.0		1.0
+1.0   		1.0   		1.0		1.0
+1.0   		1.0   		1.0		1.0
+1.0   		1.0   		1.0		1.0
+1.0   		1.0   		1.0		1.0
+
+
+
+/**  5 block - COSTANT WATER FLOW PARAMETERS -  there are from 4 (minimum) to 9 (maximum) parameter which must be calibrated
+2         u0 (original 0.8)           	THE MEAN VELOCITY IN CHANNELS [m/s] (calibration parameter) [0.5-5]
+50        D             	THE HYDRODYNAMICAL DISPERSION IN CHANNELS [m^2/s] (calibration parameter, not so important) [100-2000] (1500)
+1         CV_C_m        	Coefficent of Variation of C_m [-](Standard deviation divided by mean) (parameter to fix) [0-2] (1)
+5         CV_K          	Coefficent of Variation of K_sat [-](Standard deviation divided by mean) (parameter to fix) [0-10]
+10        f_perm        	THE DECAY FACTOR OF THE HYDRAULIC CONDUCTIVITY WITH Z [m^(-1)] (eventual calibration parameter) [0-10]
+0.05      Kv_Kh         	ANISOTROPY FACTOR OF THE HYDRAULIC CONDUCTIVITY [-](Kv/Kh) (calibration parameter) [1.0-0.001]
+0.0       K_bedrock     	Hydraulic conducibility of the bedrock, costant for whole basin [m/s] (parameter to fix) [0-(1.0E-7)] (1.0E-10)
+1.5       threshold     	Value of the threshold for definition of pixel channel [1.0-1000.0]
+0.27      gamma_m       	Exponent of the law of uniform motion on the surface (v_sup=C_m*h_sup^gamma_m*i_DD^0.5) [m^(1-gamma_m)/s] (eventual calibration parameter) [0.25-0.34] 
+0		f_bound_Richards	Parameter for the bottom boundary condition of Richards' equation (=0 no flux; =1 free drainage)	[0.00-1.00]
+7	  impedence		Reduction factor of the hydraulic conductivity in partially frozen soil (Kice=K*10^(impedence*Q), where Q is the ice ratio) [6-8]
+                            
+Pay attention -> f_perm is use in the calculation of initial height of water table even if state_K_z=1, i.e. it is used
+                 the first line of the previous matrix soil_z for the decreasing of conducibility with depth             */
+
+5: double vector hydraulic {0.5, 2000, 0.0, 0.0, 0, 1, 0, 120, 0.25, 0.0, 7.0}
+
+
+
+ 
+
+
+
+
+
+/**  6 block - ATMOSPHERIC PARAMETERS
+0         d0_hc         THE RATE Hcanopy/d0 (for Vegetated surface)
+0.1	  Vmin		MINIMUM WIND VELOCITY (m/s)
+2	  RHmin		MINIMUM RELATIVE HUMIDITY (%)
+7         Dt_escursion  THE NUMBER OF THE DAY OF MOBILE MEAN FOR CALCULATING THE annual mean temperature and the annual mean temperature amplitude 
+			(if annual mean temperature or annual mean temperature amplitude are given below, this parameter is not used)
+109       phase lag     THE DAY IN WHICH THE TEMPERATURE IS EQUAL TO THE MEAN TEMPERATURE 
+10        annual mean temperature, optional (if not given, the vector has only 4 components)
+10        annual mean temperature amplitude, optional (if not given, the vector has only 4 components)
+
+All the parameters, except d0_hc and Vmin are used to find the initial temperature of the soil, according to the annual cycle of air temperature
+*/
+
+6: double vector atmospheric {0.0, 0.01, 32.22, 7, 120, 9.6, 13.5}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/**  7 block - KRIGING PARAMETERS
+1         varianza      SPATIAL VARIANCE OF PRECIPITATION [(mm/DT)^2] 
+15000     scala_integr  INTEGRAL SCALE OF PRECIPITATION */
+
+7: double vector kriging {1,10000}
+
+ 
+
+
+
+
+
+
+/**  8 block - SNOW PARAMETERS
+3         T_rain        TEMPERATURE ABOVE WHICH ALL PRECIPITATION IS RAIN [C]
+-1        T_snow        TEMPERATURE BELOW WHICH ALL PRECIPITATION IS SNOW [C]
+100       aep           ALBEDO EXTINCTION PARAMETER [mm]
+0.85      avo           NEW SNOW VISIBLE BAND REFLECTANCE
+0.65      airo          NEW NEAR INFRARED BAND REFLECTANCE
+350       rho_snow      INITIAL SNOW DENSITY [kg/mc]
+0.033     Sr            IRREDUCIBLE WATER SATURATION [-]
+0.99	  epsilon_snow	SNOW LONGWAVE EMISSIVITY [-]
+1500.0	  snow_0	SNOW DEPTH (uniform in all the pixels) [mm], valid only if state_snow=0
+5	  snowlayer_max MAXIMUM NUMBER OF SNOW LAYERS 
+15.0	  init snow_age INITIAL SNOW AGE (in days), UNIFORM FOR ALL THE BASIN, valid only if state_snow_age==0 [days]
+-3.0	  Tth_snow 	THRESHOLD AIR TEMPERATURE at which snow melting is supposed to occur according to a temperature-index approach used as a comparison
+1.3	  snowcorrfact	INCREASING FACTOR WHEN THE RAIN GAUGE IS SUPPOSED TO RECORD SNOW PRECIPITATION
+1.0	  raincorrfact	INCREASING FACTOR WHEN THE RAIN GAUGE IS SUPPOSED TO RECORD RAIN PRECIPITATION
+*/
+8: float vector snow_parameters {-1, -5, 0.1, 0.85, 0.65, 380.0, 0.02, 0.99, 0.0, 15, 0, -3.0, 1.0, 1.0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+/**  9 block - MAXIMUM AND MINIMUM SNOW LAYER THICKNESS	(da CLM, Bonan (2004))
+10.0	  Dmin(1)	MINIMUM THICKNESS OF THE 1st LAYER (DOWNWARDS): IT IS THE SURFACE LAYER 	[mm]
+15.0	  Dmin(2)	MINIMUM THICKNESS OF THE 2nd LAYER (DOWNWARDS)					[mm]
+25.0	  Dmin(3)	MINIMUM THICKNESS OF THE 3rd LAYER (DOWNWARDS)					[mm]
+55.0	  Dmin(4)	MINIMUM THICKNESS OF THE 4th LAYER (DOWNWARDS)					[mm]
+115.0	  Dmin(5)	MINIMUM THICKNESS OF THE 5th LAYER (DOWNWARDS)					[mm]
+30.0	  Dmax(1)	MAXIMUM THICKNESS OF THE 1st LAYER (DOWNWARDS): IT IS THE SURFACE LAYER 	[mm]
+70.0	  Dmax(2)	MAXIMUM THICKNESS OF THE 2nd LAYER (DOWNWARDS)					[mm]
+180.0	  Dmax(3)	MAXIMUM THICKNESS OF THE 3rd LAYER (DOWNWARDS)					[mm]
+410.0	  Dmax(4)	MAXIMUM THICKNESS OF THE 4th LAYER (DOWNWARDS)					[mm]
+*/
+9: double vector snowlayer_parameters {1.0, 2.0, 3.0, 5.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0, 45.0, 50.0, 55.0, 10.0, 15.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 110.0, 120.0, 130.0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**  10 block - GLACIER PARAMETERS
+700	  rho_glac	INITIAL GLACIER DENSITY [kg/m3]
+-5	  Tglac_init	INITIAL GLACIER TEMPERATURE [Deg C]
+0.033	  Sr_glac	IRREDUCIBLE WATER SATURATION FOR GLACIER [-]
+600	  thres_rho	THRESHOLD DENSITY ABOVE WHICH SNOW BECOMES GLACIER [kg/m3] (not working yet)
+20000.0	  glac_0	GLACIER DEPTH (uniform in all the pixels) [mm], valid only if state_glac=0
+3	  glaclayer_max MAXIMUM NUMBER OF SNOW LAYERS, it must be at least 1
+-3.0	  Tth_glac
+*/
+
+10: float vector glac_parameters {800.0, -1.0, 0.033, 1600.0, 0.0, 3, -3.0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**  11 block - MAXIMUM AND MINIMUM GLACIER LAYER THICKNESS	
+200.0	  Dmin(1)	MINIMUM THICKNESS OF THE 1st LAYER (DOWNWARDS): IT IS THE SURFACE LAYER 	[mm]
+750.0	  Dmin(2)	MINIMUM THICKNESS OF THE 2nd LAYER (DOWNWARDS)					[mm]
+5000.0	  Dmin(3)	MINIMUM THICKNESS OF THE 3rd LAYER (DOWNWARDS)					[mm]
+1000.0	  Dmax(1)	MAXIMUM THICKNESS OF THE 1st LAYER (DOWNWARDS): IT IS THE SURFACE LAYER 	[mm]
+10000.0	  Dmax(2)	MAXIMUM THICKNESS OF THE 2nd LAYER (DOWNWARDS)					[mm]
+*/ 
+11: double vector glaclayer_parameters {10.0, 500.0, 5000.0, 1000.0, 10000.0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**  12 block - THERMAL AND SOIL PRODUCTION PARAMETERS
+silty clay soil after Clapp and Hornberger (por=0.468)
+1700      rho_s         density [kg/mc]
+2E-7      k_s           thermal diffusivity [mq/s]
+0.96      epsilon_s     soil emissivity [-]
+1000      h_min         minimum depth of soil [mm]
+10000     h_crit        maximum depth of soil (in the concave zones) [mm]
+0.00019   P             soil production at initial istant (soil Dietrich parameter)
+5         M             inverse of production time (soil Dietrich parameter)
+1.7       prs           =(prs rock)/(prs soil) (soil Dietrich parameter) (porosity=1-1/prs; prs=1/(1-por))
+0.005     k             soil diffusivity (soil Dietrich parameter) 
+5	  Aggrstab	soil aggregate stability [J/m2]
+20        Coh           cohesion of the soil at saturation [kpa]
+3.5       er_r          enrichment ratio for erosive loss of particle organic carbon                                     */
+
+12: double vector soil_parameters {1370, 0.2E-6, 0.96, 2000, 20000, 0.00019, 5, 2, 0.005, 5, 20, 3.5}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**  13 block - INITIAL VALUES OF WATER CONTENT PARAMETERS
+               (write all the four parameters even if state_teta==1, i.e. there is a file with water distribution)
+               (the values of "theta" must be given between "teta_r" and "teta_sat")
+               (if state_teta=2.0 (i.e. uniform value) only theta_mean is used)
+               (if state_teta=8 then the values of followinf vector are not used)
+1000      d_wt          THE DEPTH OF WATER TABLE FROM THE SOIL SURFACE (this value is used for all the pixels) [mm]
+-1200     psi_cost      initial suction potential (mm) uniform in the whole basin (only if state_teta=0)   */  
+
+13: double vector theta_0 {3000, 0}
+
+
+
+
+
+
+
+
+
+
+/** 14 block - INITIAL SOIL TEMPERATURE PROFILE
+    in Celsius degree	(only if state_init_Temp=1, otherwise it is generated automatically) */
+
+14: float vector Tsoil_init {0.0, 0.0, 0.0}			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** 15 block - COORDINATES (E,N,layer) if state_px_coord==1 or (row,col,layer) if state_px_coord==1 OF THE POINTS FOR WHICH YOU WANT TO PLOT THE LOCAL RESULTS (max 9999 points), see block 17 to flag one of the two */
+
+15: double matrix local_results {1,3}
+30	22	1
+
+
+
+
+
+
+
+
+/** 16 block - 1st column: Corresponding values of Dt (in hour) for each values of output map flags (first row corresponds to flag equal to 1, second to flag equal to 2, and so on)2nd column: Beginning number of the map counter*/
+
+16: long matrix output_maps {1,1}
+24
+
+
+
+
+
+
+
+/** 17 block - BASE STATE PARAMETERS
+#1      state_init_Temp	 1 if you want to insert manually the initial temperature profile of the soil, 0 if you want it to be generated automatically
+#2      state_teta       0 PSI UNIFORM, 1 PSI INPUT MAP, 2 PSI INPUT TENSOR
+#3      state_rad        ENTER 0 IF YOU DO NOT HAVE MEAS.OF DIRECT SHORTWAVE RAD, 1 IF YOU HAVE MEAS.OF BOTH DIRECT AND DIFFUSE SHORTWAVE RAD, 
+			 2 OF ONLY DIRECT, 3 OF ONLY DIFFUSE, 4 OF TOTAL SHORTWAVE RAD, 5 IF YOU WANT TO USE THE DATA ONLY FOR CALCULATE THE CLOUDINESS		 
+#4      state_alb	 0 IF YOU DO NOT HAVE MEASUREMENTS OF DIFFUSE SHORT WAVE RADIATION, 1 OTHERWISE
+#5      state_gtemp	 0 IF YOU DO NOT HAVE MEASUREMENTS OF TEMPERATURE GRADIENT WITH ELEVATION, 1 OTHERWISE
+#6      state_elwcs 	 0 IF YOU DO NOT HAVE MEASUREMENTS OF LONGWAVE RADIATION CLEAR SKY EMISSIVITY, 1 OTHERWISE
+#7      state_pixel      1 IF YOU WANT DISPLAY OUTPUT FOR THE PIXEL SPECIFIED IN BLOCK 15, 0 OTHERWISE
+#8      state_px_coord	 1 IF THE COORDINATES OF THE PIXELS IN BLOCK 15 ARE IN FORMATE (EAST,NORTH), 0 IF IN FORMATE ROW AND COLUMS (r,c)
+#9      state_snow       0 IF YOU DO NOT HAVE A FILE WITH INITIAL SNOW DEPTH, 1 OTHERWISE
+#10     state_snow_age	 0 IF YOU DO NOT HAVE A FILE WITH SNOW AGE (in days), 1 OTHERWISE
+#11     state_glac	 0 IF YOU DO NOT HAVE A FILE WITH INITIAL GLACIER DEPTH, 1 OTHERWISE
+#12     state_K          0 FOR COSTANT (HORIZONTAL) HYDRAULIC CONDUCIBILITY, 1 FOR SURFACE VALUES
+#13     state_K_z        0 FOR A CONDUCIBILITY EXPONENTIAL DECREASE WITH DEPTH (f_perm), 1 FOR DECREASE ACCORDING TO MATRIX soil_z 
+#14     state_soil       0 TO ASSIGN DIRECTLY THE VAN GENUCHTEN PARAMETERS, 1 TO ASSIGN SOIL PROPERTIES AS TEXTURE, BULK DENSITY AND ORGANIC CARBON
+#15     state_alpha      0 FOR COSTANT alpha (VAN GENUCHTEN), 1 FOR A MATRIX OF VALUES
+#16     state_n	         0 FOR COSTANT n (VAN GENUCHTEN), 1 FOR A MATRIX OF VALUES
+#17     state_m	         0 FOR COSTANT m (VAN GENUCHTEN), 1 FOR A MATRIX OF VALUES
+#18     state_teta_r     0 FOR COSTANT teta_r (RESIDUAL WATER CONTENT), 1 FOR A MATRIX OF VALUES
+#19     state_teta_sat   0 FOR COSTANT TETA_SAT (SATURATED WATER CONTENT), 1 FOR A MATRIX OF VALUES
+#20     print            1 IF YOU WANT TO PRINT MATRICES WITH INTERMEDIATE RESULTS, 0 OTHERWISE  (ii* files)
+
+
+#1	#2	#3	#4	#5	#6	#7	#8	#9	#10	*/
+
+17: double vector state_based {
+0,	0,	4,	0,	0,	0,	1,	0,	0,	0,	
+0,	0,	0,	0,	0,	0,	0,	0,	0,	0}
+
+
+
+
+
+
+
+/** 18 block - ADVANCED STATE PARAMETERS
+#1      state_enforc      (it is not distributed!!, only use for testing)
+			=0 if no meas.of radiation are av.
+			=1 with meas. of Net Rad (col 13 data meteo)
+			=2 with meas. of Net Rad as sum of components: SWin (col 15), SWout (col 16), LWin (col 17), LWout (col 18)
+			=3 with meas. of SWin and SWout
+			=4 with meas. of LWin
+			=5 with meas. of SWin, SWout and LWout
+			=6 with meas. of LWin and LWout
+			=7 with meas. of SWin, SWout and LWin
+			+10 if meas. of sensible heat flux (col 19) and latent heat flux (col 20)	
+#2      state_turb	 0 if you want to use Louis' scheme, 1 if you want to use the complete scheme to calculate turbulent transfer coefficients
+#3      state_lwrad	 Which formula for incoming longwave radiation: 0 (dati Zongo)  1 (Brutsaert, 1975), 2 (Satterlund, 1979), 
+			 3 (Koenig-Langlo & Augstein, 1994), 4 (Idso, 1981), 5 (Andreas & Ackley, 1982), 6 (Konzelmann, 1994)
+#4      soil_freezing	 1 IF YOU TO CONSIDER THE FREEZING SOIL, 0 OTHERWISE
+#5      monin_obuhkov    1 stability and instability considered, 
+			 2 stability not considered, 
+  			 3 instability not considered, 
+			 4 always neutrality, 
+			 5 Oerlemans&Grisogono (2002) on glacier
+*/
+
+18: double vector state_advanced {
+1,	1,	4,	0,	1}
+
+
+
+
+/** 19 block - OUTPUT PARAMETERS
+#1       output_Txy	  >1 (corresponding to the row in block 16) if you want to display output Txy distributed MAPS, 0 OTHERWISE
+#2       output_TETAxy    >1 (corresponding to the row in block 16) if you want to display output TETAxy (water content) distributed MAPS, 0 OTHERWISE
+#3       output_TETAICExy >1 (corresponding to the row in block 16) if you want to display output TETAxy distributed MAPS, 0 OTHERWISE
+#4       output_PSIxy	  >1 (corresponding to the row in block 16) if you want to display output PSIxy (suction potential) distributed MAPS, 0 OTHERWISE
+#5       output_saturation>1 (corresponding to the row in block 16) if you want to display output saturation distributed MAPS, 0 OTHERWISE
+#6       output_snow      >1 (corresponding to the row in block 16) if you want to display output SNOW distributed MAPS, 0 OTHERWISE
+#7       output_glac	  >1 (corresponding to the row in block 16) if you want to display output GLACIER distributed MAPS, 0 OTHERWISE
+#8       output_h_sup	  >1 (corresponding to the row in block 16) if you want to display output h_sup (depth of water over soil) distributed MAPS, 0 OTHERWISE
+#9       output_albedo	  >1 (corresponding to the row in block 16) if you want to display output albedo distributed MAPS, 0 OTHERWISE
+#10      output_Rn	  >1 (corresponding to the row in block 16) if you want to display output Rn distributed MAPS, 0 OTHERWISE
+#11      output_G	  >1 (corresponding to the row in block 16) if you want to display output G distributed MAPS, 0 OTHERWISE
+#12      output_H	  >1 (corresponding to the row in block 16) if you want to display output H distributed MAPS, 0 OTHERWISE
+#13      output_ET	  >1 (corresponding to the row in block 16) if you want to display output ET distributed MAPS, 0 OTHERWISE
+#14      output_Ecanopy	  >1 (corresponding to the row in block 16) if you want to display output Ecanopy distributed MAPS, 0 OTHERWISE
+#15      output_Ts	  >1 (corresponding to the row in block 16) if you want to display output Ts distributed MAPS, 0 OTHERWISE
+#16      output_P	  >1 (corresponding to the row in block 16) if you want to display output precipitation distributed MAPS, 0 OTHERWISE
+#17      output_Wr	  >1 (corresponding to the row in block 16) if you want to display output Wr (water stored in vegetation) distributed MAPS,
+			   0 OTHERWISE
+#18      output_iceMASS   >1 (corresponding to the row in block 16) if you want to display output ice in the soil distributed MAPS, 0 OTHERWISE
+#19      output_SNOW      >1 (corresponding to the row in block 16) if you want to display output snow melting and sublimation distributed MAPS,
+			   0 OTHERWISE
+#20      output_GLACIER   >1 (corresponding to the row in block 16) if you want to display output glacier melting and sublimation distributed MAPS, 
+			   0 OTHERWISE
+#21      output_Rswdown   >1 (corresponding to the row in block 16) if you want to display output Rswdown MAPS, 0 OTHERWISE
+#22      output_Ta	  >1 (corresponding to the row in block 16) if you want to display output air temperature MAPS, 0 OTHERWISE
+#23      output_snd	  >1 (corresponding to the row in block 16) if you want to display output snow density MAPS, 0 OTHERWISE
+#24      output_gld	  >1 (corresponding to the row in block 16) if you want to display output glacier density MAPS, 0 OTHERWISE
+#25      output_sim	  >1 (corresponding to the row in block 16) if you want to generate all the maps to start a new simulation 
+#26      output_Er        >1 (corresponding to the row in block 16) if you want to display output Soil Erosion and Soil Organic Loss MAPS, 0 OTHERWISE
+
+
+			  if the present one stops, 0 OTHERWISE. In case 1, it also generates snow duration maps (#36 and #37) and 
+			  Degree Day Factor maps (from #36 to #41)
+*/
+
+19: double vector output_parameters {
+0,	0,	0,	0,	0,
+0,	0,	0,	0,	0,
+0,	0,	0,	0,	0,
+0,	0,	0,	0,	0,
+0,	0,	0,	0,	0,	0}
+
+

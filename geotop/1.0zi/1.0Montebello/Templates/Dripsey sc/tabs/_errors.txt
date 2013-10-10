@@ -1,0 +1,702 @@
+Files of the errors in the simulation
+Valid pixels: 4774
+Number of nodes: 23870
+Novalue pixels: 5714
+Basin area: 11.935000 km2
+Channel pixels: 193
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.487164e-12 res_av:5.637536e+01 epsilon:1.056375e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:1 massloss:5.193205e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002  2:00 0.00% - Time elapsed (hours:min:sec)  0:00:00 Time remaining (hours:min) -1:43  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.902045e-12 res_av:1.869914e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:2 massloss:6.682907e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002  4:00 0.02% - Time elapsed (hours:min:sec)  0:00:01 Time remaining (hours:min)  1:12  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.898400e-12 res_av:1.868939e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:3 massloss:6.677020e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002  6:00 0.05% - Time elapsed (hours:min:sec)  0:00:01 Time remaining (hours:min)  0:36  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.894754e-12 res_av:1.867965e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:4 massloss:6.675246e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002  8:00 0.07% - Time elapsed (hours:min:sec)  0:00:02 Time remaining (hours:min)  0:48  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.891106e-12 res_av:1.866992e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:5 massloss:6.670695e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002 10:00 0.09% - Time elapsed (hours:min:sec)  0:00:02 Time remaining (hours:min)  0:36  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.887469e-12 res_av:1.866020e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:6 massloss:6.666838e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002 12:00 0.11% - Time elapsed (hours:min:sec)  0:00:02 Time remaining (hours:min)  0:29  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.883832e-12 res_av:1.865049e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:7 massloss:6.662732e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002 14:00 0.14% - Time elapsed (hours:min:sec)  0:00:03 Time remaining (hours:min)  0:36  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.880196e-12 res_av:1.864078e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:8 massloss:6.658871e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002 16:00 0.16% - Time elapsed (hours:min:sec)  0:00:03 Time remaining (hours:min)  0:31  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.876569e-12 res_av:1.863109e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:9 massloss:6.652122e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002 18:00 0.18% - Time elapsed (hours:min:sec)  0:00:03 Time remaining (hours:min)  0:27  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.872940e-12 res_av:1.862141e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:10 massloss:6.650313e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002 20:00 0.21% - Time elapsed (hours:min:sec)  0:00:04 Time remaining (hours:min)  0:32  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.869318e-12 res_av:1.861174e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:11 massloss:6.646183e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+2/1/2002 22:00 0.23% - Time elapsed (hours:min:sec)  0:00:04 Time remaining (hours:min)  0:29  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.865694e-12 res_av:1.860208e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:12 massloss:6.642288e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+3/1/2002  0:00 0.25% - Time elapsed (hours:min:sec)  0:00:05 Time remaining (hours:min)  0:33  
+
+3/1/2002  0:00 JD:1.958333 (1^ simulation day)  0.27% completed! 
+ SW=0.000000 W/m2  LW:0.000000 W/m2  H=  0.00 W/m2  LE=  0.00 W/m2 
+ Prain=  0.00 mm  Psnow=  0.00 mm  
+ Max Error Richards=3.269934e-12 mm/h 
+ Tot Error Richards=7.847842e-11 mm
+
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.862081e-12 res_av:1.859243e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:13 massloss:6.638269e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+3/1/2002  2:00 0.27% - Time elapsed (hours:min:sec)  0:00:05 Time remaining (hours:min)  0:30  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.858463e-12 res_av:1.858279e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:14 massloss:6.631701e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+3/1/2002  4:00 0.30% - Time elapsed (hours:min:sec)  0:00:05 Time remaining (hours:min)  0:27  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.854854e-12 res_av:1.857316e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:15 massloss:6.632346e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+3/1/2002  6:00 0.32% - Time elapsed (hours:min:sec)  0:00:06 Time remaining (hours:min)  0:31  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.851248e-12 res_av:1.856354e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+cumiter:16 massloss:6.623772e-12
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+3/1/2002  8:00 0.34% - Time elapsed (hours:min:sec)  0:00:06 Time remaining (hours:min)  0:29  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:2.200108e-03 res_av:1.855393e-05 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:1.587493e-04 res_av:2.200108e-03 epsilon:1.000000e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:2.616900e-05 res_av:1.587493e-04 epsilon:1.000000e-07 mu:7.215522e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:4.222118e-06 res_av:2.616900e-05 epsilon:1.000000e-07 mu:1.910658e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:5.206383e-07 res_av:4.222118e-06 epsilon:1.000000e-07 mu:1.184240e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:2.155109e-08 res_av:5.206383e-07 epsilon:1.000000e-07 mu:9.603597e-02 lambda:1.000000e+00
+cumiter:22 massloss:3.250459e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+3/1/2002 10:00 0.37% - Time elapsed (hours:min:sec)  0:00:07 Time remaining (hours:min)  0:31  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:2.675078e+05 res_av:1.919283e-02 epsilon:1.000019e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:3.517527e-01 res_av:2.675078e+05 epsilon:1.000019e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:2.948434e-01 res_av:3.517527e-01 epsilon:1.000019e-07 mu:1.421481e-07 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:3 res:2.791703e-01 res_av:2.948434e-01 epsilon:1.000019e-07 mu:1.695848e-07 lambda:5.000000e-02
+iter:1/5 cont:5 cont2:3 res:2.651657e-01 res_av:2.791703e-01 epsilon:1.000019e-07 mu:1.791056e-07 lambda:5.000000e-02
+iter:1/6 cont:6 cont2:3 res:2.518771e-01 res_av:2.651657e-01 epsilon:1.000019e-07 mu:1.885650e-07 lambda:5.000000e-02
+iter:1/7 cont:7 cont2:3 res:2.392612e-01 res_av:2.518771e-01 epsilon:1.000019e-07 mu:1.985133e-07 lambda:5.000000e-02
+iter:1/8 cont:8 cont2:3 res:2.272811e-01 res_av:2.392612e-01 epsilon:1.000019e-07 mu:2.089807e-07 lambda:5.000000e-02
+iter:1/9 cont:9 cont2:3 res:2.159036e-01 res_av:2.272811e-01 epsilon:1.000019e-07 mu:2.199961e-07 lambda:5.000000e-02
+iter:1/10 cont:10 cont2:3 res:2.050975e-01 res_av:2.159036e-01 epsilon:1.000019e-07 mu:2.315893e-07 lambda:5.000000e-02
+iter:1/11 cont:11 cont2:3 res:1.831537e-01 res_av:2.050975e-01 epsilon:1.000019e-07 mu:2.437912e-07 lambda:1.067655e-01
+iter:1/12 cont:12 cont2:3 res:1.372447e-01 res_av:1.831537e-01 epsilon:1.000019e-07 mu:2.730000e-07 lambda:2.495944e-01
+iter:1/13 cont:13 cont2:1 res:3.185325e-02 res_av:1.372447e-01 epsilon:1.000019e-07 mu:3.643199e-07 lambda:1.000000e+00
+iter:1/14 cont:14 cont2:3 res:3.031960e-02 res_av:3.185325e-02 epsilon:1.000019e-07 mu:1.569729e-06 lambda:5.000000e-02
+iter:1/15 cont:15 cont2:3 res:2.885977e-02 res_av:3.031960e-02 epsilon:1.000019e-07 mu:1.649130e-06 lambda:5.000000e-02
+iter:1/16 cont:16 cont2:3 res:2.746929e-02 res_av:2.885977e-02 epsilon:1.000019e-07 mu:1.732549e-06 lambda:5.000000e-02
+iter:1/17 cont:17 cont2:3 res:2.614473e-02 res_av:2.746929e-02 epsilon:1.000019e-07 mu:1.820249e-06 lambda:5.000000e-02
+iter:1/18 cont:18 cont2:3 res:2.488295e-02 res_av:2.614473e-02 epsilon:1.000019e-07 mu:1.912468e-06 lambda:5.000000e-02
+iter:1/19 cont:19 cont2:3 res:2.368099e-02 res_av:2.488295e-02 epsilon:1.000019e-07 mu:2.009447e-06 lambda:5.000000e-02
+iter:1/20 cont:20 cont2:3 res:2.253604e-02 res_av:2.368099e-02 epsilon:1.000019e-07 mu:2.111439e-06 lambda:5.000000e-02
+iter:1/21 cont:21 cont2:3 res:2.144546e-02 res_av:2.253604e-02 epsilon:1.000019e-07 mu:2.218711e-06 lambda:5.000000e-02
+iter:1/22 cont:22 cont2:3 res:2.040670e-02 res_av:2.144546e-02 epsilon:1.000019e-07 mu:2.331541e-06 lambda:5.000000e-02
+iter:1/23 cont:23 cont2:2 res:1.265930e-02 res_av:2.040670e-02 epsilon:1.000019e-07 mu:2.450223e-06 lambda:5.000000e-01
+iter:1/24 cont:24 cont2:1 res:3.898890e-03 res_av:1.265930e-02 epsilon:1.000019e-07 mu:3.949743e-06 lambda:1.000000e+00
+iter:1/25 cont:25 cont2:1 res:6.161257e-04 res_av:3.898890e-03 epsilon:1.000019e-07 mu:1.282441e-05 lambda:1.000000e+00
+iter:1/26 cont:26 cont2:1 res:4.479111e-05 res_av:6.161257e-04 epsilon:1.000019e-07 mu:8.115383e-05 lambda:1.000000e+00
+iter:1/27 cont:27 cont2:1 res:4.102232e-06 res_av:4.479111e-05 epsilon:1.000019e-07 mu:1.116314e-03 lambda:1.000000e+00
+iter:1/28 cont:28 cont2:1 res:4.941798e-08 res_av:4.102232e-06 epsilon:1.000019e-07 mu:1.218872e-02 lambda:1.000000e+00
+cumiter:50 massloss:-7.453836e-08
+Time step ok: dt:7200.000000 Loss:-0.000000 
+
+3/1/2002 12:00 0.39% - Time elapsed (hours:min:sec)  0:00:09 Time remaining (hours:min)  0:38  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:8.754010e-02 res_av:4.989083e+00 epsilon:1.004989e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:4.250864e-02 res_av:8.754010e-02 epsilon:1.004989e-07 mu:1.754633e-03 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:6 res:4.250279e-02 res_av:4.250864e-02 epsilon:1.004989e-07 mu:8.520330e-04 lambda:2.336248e-04
+iter:1/4 cont:4 cont2:8 res:4.250253e-02 res_av:4.250279e-02 epsilon:1.004989e-07 mu:8.519158e-04 lambda:8.651986e-06
+iter:1/5 cont:5 cont2:4 res:4.247789e-02 res_av:4.250253e-02 epsilon:1.004989e-07 mu:8.519105e-04 lambda:5.000000e-03
+iter:1/6 cont:6 cont2:4 res:4.226555e-02 res_av:4.247789e-02 epsilon:1.004989e-07 mu:8.514168e-04 lambda:5.000000e-03
+iter:1/7 cont:7 cont2:4 res:4.205428e-02 res_av:4.226555e-02 epsilon:1.004989e-07 mu:8.471606e-04 lambda:5.000000e-03
+iter:1/8 cont:8 cont2:4 res:4.184409e-02 res_av:4.205428e-02 epsilon:1.004989e-07 mu:8.429260e-04 lambda:5.000000e-03
+iter:1/9 cont:9 cont2:4 res:4.114795e-02 res_av:4.184409e-02 epsilon:1.004989e-07 mu:8.387129e-04 lambda:1.664113e-02
+iter:1/10 cont:10 cont2:3 res:3.906192e-02 res_av:4.114795e-02 epsilon:1.004989e-07 mu:8.247598e-04 lambda:5.000000e-02
+iter:1/11 cont:11 cont2:3 res:3.713126e-02 res_av:3.906192e-02 epsilon:1.004989e-07 mu:7.829478e-04 lambda:5.000000e-02
+iter:1/12 cont:12 cont2:3 res:3.529683e-02 res_av:3.713126e-02 epsilon:1.004989e-07 mu:7.442501e-04 lambda:5.000000e-02
+iter:1/13 cont:13 cont2:3 res:3.355321e-02 res_av:3.529683e-02 epsilon:1.004989e-07 mu:7.074812e-04 lambda:5.000000e-02
+iter:1/14 cont:14 cont2:3 res:3.189566e-02 res_av:3.355321e-02 epsilon:1.004989e-07 mu:6.725325e-04 lambda:5.000000e-02
+iter:1/15 cont:15 cont2:3 res:2.898357e-02 res_av:3.189566e-02 epsilon:1.004989e-07 mu:6.393090e-04 lambda:9.330861e-02
+iter:1/16 cont:16 cont2:3 res:2.270062e-02 res_av:2.898357e-02 epsilon:1.004989e-07 mu:5.809398e-04 lambda:2.281048e-01
+iter:1/17 cont:17 cont2:1 res:1.508875e-02 res_av:2.270062e-02 epsilon:1.004989e-07 mu:4.550058e-04 lambda:1.000000e+00
+iter:1/18 cont:18 cont2:1 res:6.576822e-03 res_av:1.508875e-02 epsilon:1.004989e-07 mu:3.024353e-04 lambda:1.000000e+00
+iter:1/19 cont:19 cont2:3 res:6.244692e-03 res_av:6.576822e-03 epsilon:1.004989e-07 mu:1.318243e-04 lambda:5.000000e-02
+iter:1/20 cont:20 cont2:3 res:5.940781e-03 res_av:6.244692e-03 epsilon:1.004989e-07 mu:1.251671e-04 lambda:5.000000e-02
+iter:1/21 cont:21 cont2:3 res:5.651989e-03 res_av:5.940781e-03 epsilon:1.004989e-07 mu:1.190756e-04 lambda:5.000000e-02
+iter:1/22 cont:22 cont2:3 res:5.377304e-03 res_av:5.651989e-03 epsilon:1.004989e-07 mu:1.132871e-04 lambda:5.000000e-02
+iter:1/23 cont:23 cont2:3 res:5.115933e-03 res_av:5.377304e-03 epsilon:1.004989e-07 mu:1.077814e-04 lambda:5.000000e-02
+iter:1/24 cont:24 cont2:3 res:4.867182e-03 res_av:5.115933e-03 epsilon:1.004989e-07 mu:1.025425e-04 lambda:5.000000e-02
+iter:1/25 cont:25 cont2:3 res:4.564401e-03 res_av:4.867182e-03 epsilon:1.004989e-07 mu:9.755663e-05 lambda:6.442990e-02
+iter:1/26 cont:26 cont2:3 res:3.844174e-03 res_av:4.564401e-03 epsilon:1.004989e-07 mu:9.148777e-05 lambda:1.719745e-01
+iter:1/27 cont:27 cont2:2 res:2.302842e-03 res_av:3.844174e-03 epsilon:1.004989e-07 mu:7.705171e-05 lambda:5.000000e-01
+iter:1/28 cont:28 cont2:1 res:6.201062e-04 res_av:2.302842e-03 epsilon:1.004989e-07 mu:4.615761e-05 lambda:1.000000e+00
+iter:1/29 cont:29 cont2:1 res:7.586364e-05 res_av:6.201062e-04 epsilon:1.004989e-07 mu:8.103363e-05 lambda:1.000000e+00
+iter:1/30 cont:30 cont2:1 res:1.537827e-06 res_av:7.586364e-05 epsilon:1.004989e-07 mu:6.623654e-04 lambda:1.000000e+00
+iter:1/31 cont:31 cont2:1 res:6.690313e-10 res_av:1.537827e-06 epsilon:1.004989e-07 mu:3.267562e-02 lambda:1.000000e+00
+cumiter:81 massloss:-5.988257e-09
+Time step ok: dt:7200.000000 Loss:-0.000000 
+
+3/1/2002 14:00 0.41% - Time elapsed (hours:min:sec)  0:00:12 Time remaining (hours:min)  0:52  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:2.353238e-01 res_av:2.255067e-02 epsilon:1.000023e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:8.422177e-02 res_av:2.353238e-01 epsilon:1.000023e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:4 res:8.386597e-02 res_av:8.422177e-02 epsilon:1.000023e-07 mu:3.578974e-02 lambda:5.000000e-03
+iter:1/4 cont:4 cont2:4 res:8.340532e-02 res_av:8.386597e-02 epsilon:1.000023e-07 mu:3.563855e-02 lambda:5.000000e-03
+iter:1/5 cont:5 cont2:4 res:8.295200e-02 res_av:8.340532e-02 epsilon:1.000023e-07 mu:3.544280e-02 lambda:5.000000e-03
+iter:1/6 cont:6 cont2:4 res:8.250490e-02 res_av:8.295200e-02 epsilon:1.000023e-07 mu:3.525016e-02 lambda:5.000000e-03
+iter:1/7 cont:7 cont2:4 res:8.206323e-02 res_av:8.250490e-02 epsilon:1.000023e-07 mu:3.506017e-02 lambda:5.000000e-03
+iter:1/8 cont:8 cont2:4 res:8.162641e-02 res_av:8.206323e-02 epsilon:1.000023e-07 mu:3.487248e-02 lambda:5.000000e-03
+iter:1/9 cont:9 cont2:4 res:8.119400e-02 res_av:8.162641e-02 epsilon:1.000023e-07 mu:3.468685e-02 lambda:5.000000e-03
+iter:1/10 cont:10 cont2:4 res:8.072549e-02 res_av:8.119400e-02 epsilon:1.000023e-07 mu:3.450310e-02 lambda:5.440939e-03
+iter:1/11 cont:11 cont2:4 res:7.814045e-02 res_av:8.072549e-02 epsilon:1.000023e-07 mu:3.430401e-02 lambda:2.337990e-02
+iter:1/12 cont:12 cont2:3 res:7.092535e-02 res_av:7.814045e-02 epsilon:1.000023e-07 mu:3.320551e-02 lambda:5.000000e-02
+iter:1/13 cont:13 cont2:3 res:6.669735e-02 res_av:7.092535e-02 epsilon:1.000023e-07 mu:3.013948e-02 lambda:5.000000e-02
+iter:1/14 cont:14 cont2:3 res:6.294083e-02 res_av:6.669735e-02 epsilon:1.000023e-07 mu:2.834280e-02 lambda:5.000000e-02
+iter:1/15 cont:15 cont2:3 res:5.950187e-02 res_av:6.294083e-02 epsilon:1.000023e-07 mu:2.674648e-02 lambda:5.000000e-02
+iter:1/16 cont:16 cont2:3 res:5.631302e-02 res_av:5.950187e-02 epsilon:1.000023e-07 mu:2.528511e-02 lambda:5.000000e-02
+iter:1/17 cont:17 cont2:3 res:5.021390e-02 res_av:5.631302e-02 epsilon:1.000023e-07 mu:2.393002e-02 lambda:9.580459e-02
+iter:1/18 cont:18 cont2:3 res:3.750719e-02 res_av:5.021390e-02 epsilon:1.000023e-07 mu:2.133822e-02 lambda:2.050196e-01
+iter:1/19 cont:19 cont2:2 res:1.688499e-02 res_av:3.750719e-02 epsilon:1.000023e-07 mu:1.593855e-02 lambda:5.000000e-01
+iter:1/20 cont:20 cont2:1 res:4.337597e-03 res_av:1.688499e-02 epsilon:1.000023e-07 mu:7.175216e-03 lambda:1.000000e+00
+iter:1/21 cont:21 cont2:1 res:4.492894e-04 res_av:4.337597e-03 epsilon:1.000023e-07 mu:1.843246e-03 lambda:1.000000e+00
+iter:1/22 cont:22 cont2:1 res:5.754660e-06 res_av:4.492894e-04 epsilon:1.000023e-07 mu:1.909240e-04 lambda:1.000000e+00
+iter:1/23 cont:23 cont2:1 res:9.650864e-10 res_av:5.754660e-06 epsilon:1.000023e-07 mu:8.688807e-03 lambda:1.000000e+00
+cumiter:104 massloss:-5.494461e-08
+Time step ok: dt:7200.000000 Loss:-0.000000 
+
+3/1/2002 16:00 0.43% - Time elapsed (hours:min:sec)  0:00:16 Time remaining (hours:min)  1:01  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:5.337499e-02 res_av:3.094742e-02 epsilon:1.000031e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:1.598685e-02 res_av:5.337499e-02 epsilon:1.000031e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:2.382678e-03 res_av:1.598685e-02 epsilon:1.000031e-07 mu:2.995195e-02 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:1.058244e-04 res_av:2.382678e-03 epsilon:1.000031e-07 mu:4.464036e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:5.483677e-06 res_av:1.058244e-04 epsilon:1.000031e-07 mu:4.724953e-04 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:3.249703e-08 res_av:5.483677e-06 epsilon:1.000031e-07 mu:9.118251e-03 lambda:1.000000e+00
+cumiter:110 massloss:-1.814958e-08
+Time step ok: dt:7200.000000 Loss:-0.000000 
+
+3/1/2002 18:00 0.46% - Time elapsed (hours:min:sec)  0:00:16 Time remaining (hours:min)  0:58  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:1.824288e-02 res_av:3.475960e-02 epsilon:1.000035e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:2.411372e-03 res_av:1.824288e-02 epsilon:1.000035e-07 mu:5.248300e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:6.253989e-05 res_av:2.411372e-03 epsilon:1.000035e-07 mu:6.937281e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:4.188320e-06 res_av:6.253989e-05 epsilon:1.000035e-07 mu:7.995175e-04 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:5.137438e-07 res_av:4.188320e-06 epsilon:1.000035e-07 mu:1.193837e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:2.088753e-08 res_av:5.137438e-07 epsilon:1.000035e-07 mu:9.732816e-02 lambda:1.000000e+00
+cumiter:116 massloss:3.150381e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+3/1/2002 20:00 0.48% - Time elapsed (hours:min:sec)  0:00:17 Time remaining (hours:min)  0:58  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:1.371762e-03 res_av:3.621288e-02 epsilon:1.000036e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:1.638279e-05 res_av:1.371762e-03 epsilon:1.000036e-07 mu:3.788049e-03 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:2.553713e-09 res_av:1.638279e-05 epsilon:1.000036e-07 mu:3.052094e-03 lambda:1.000000e+00
+cumiter:119 massloss:-2.448946e-07
+Time step ok: dt:7200.000000 Loss:-0.000000 
+
+3/1/2002 22:00 0.50% - Time elapsed (hours:min:sec)  0:00:17 Time remaining (hours:min)  0:56  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:4.329359e-03 res_av:1.384009e-02 epsilon:1.000014e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:2.451296e-04 res_av:4.329359e-03 epsilon:1.000014e-07 mu:3.128129e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:3.635939e-05 res_av:2.451296e-04 epsilon:1.000014e-07 mu:1.771156e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:5.970311e-06 res_av:3.635939e-05 epsilon:1.000014e-07 mu:1.375180e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:8.032402e-07 res_av:5.970311e-06 epsilon:1.000014e-07 mu:8.374889e-03 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:4.564152e-08 res_av:8.032402e-07 epsilon:1.000014e-07 mu:6.224874e-02 lambda:1.000000e+00
+cumiter:125 massloss:9.731020e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002  0:00 0.53% - Time elapsed (hours:min:sec)  0:00:18 Time remaining (hours:min)  0:56  
+
+4/1/2002  0:00 JD:2.958333 (2^ simulation day)  0.55% completed! 
+ SW=0.000000 W/m2  LW:0.000000 W/m2  H=  0.00 W/m2  LE=  0.00 W/m2 
+ Prain=  0.00 mm  Psnow=  0.00 mm  
+ Max Error Richards=2.332752e-08 mm/h 
+ Tot Error Richards=5.599390e-07 mm
+
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:9.584172e-03 res_av:2.238242e-02 epsilon:1.000022e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:5.504787e-04 res_av:9.584172e-03 epsilon:1.000022e-07 mu:4.282008e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:2.750126e-05 res_av:5.504787e-04 epsilon:1.000022e-07 mu:2.459424e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:4.472182e-06 res_av:2.750126e-05 epsilon:1.000022e-07 mu:1.818139e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:5.816255e-07 res_av:4.472182e-06 epsilon:1.000022e-07 mu:1.118048e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:2.900756e-08 res_av:5.816255e-07 epsilon:1.000022e-07 mu:8.596789e-02 lambda:1.000000e+00
+cumiter:131 massloss:4.375048e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002  2:00 0.55% - Time elapsed (hours:min:sec)  0:00:19 Time remaining (hours:min)  0:57  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:9.526236e-03 res_av:3.094742e-02 epsilon:1.000031e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:4.516631e-04 res_av:9.526236e-03 epsilon:1.000031e-07 mu:3.078201e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:2.688470e-05 res_av:4.516631e-04 epsilon:1.000031e-07 mu:1.459453e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:4.407691e-06 res_av:2.688470e-05 epsilon:1.000031e-07 mu:1.859851e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:5.910199e-07 res_av:4.407691e-06 epsilon:1.000031e-07 mu:1.134416e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:3.293669e-08 res_av:5.910199e-07 epsilon:1.000031e-07 mu:8.460214e-02 lambda:1.000000e+00
+cumiter:137 massloss:4.967524e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002  4:00 0.57% - Time elapsed (hours:min:sec)  0:00:19 Time remaining (hours:min)  0:55  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:2.993362e-04 res_av:4.376630e-02 epsilon:1.000044e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:4.447790e-07 res_av:2.993362e-04 epsilon:1.000044e-07 mu:6.839421e-04 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:1.142483e-12 res_av:4.447790e-07 epsilon:1.000044e-07 mu:1.124203e-01 lambda:1.000000e+00
+cumiter:140 massloss:-9.933080e-11
+Time step ok: dt:7200.000000 Loss:-0.000000 
+
+4/1/2002  6:00 0.59% - Time elapsed (hours:min:sec)  0:00:20 Time remaining (hours:min)  0:55  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:1.170818e-03 res_av:1.085706e-02 epsilon:1.000011e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:3.621554e-05 res_av:1.170818e-03 epsilon:1.000011e-07 mu:1.078393e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:6.091404e-06 res_av:3.621554e-05 epsilon:1.000011e-07 mu:1.380638e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:1.004979e-06 res_av:6.091404e-06 epsilon:1.000011e-07 mu:8.208378e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:1.352962e-07 res_av:1.004979e-06 epsilon:1.000011e-07 mu:4.975281e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:7.628498e-09 res_av:1.352962e-07 epsilon:1.000011e-07 mu:3.695635e-01 lambda:1.000000e+00
+cumiter:146 massloss:1.150564e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002  8:00 0.62% - Time elapsed (hours:min:sec)  0:00:20 Time remaining (hours:min)  0:53  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:1.740352e-03 res_av:1.716652e-02 epsilon:1.000017e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:2.054373e-04 res_av:1.740352e-03 epsilon:1.000017e-07 mu:1.013806e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:3.409828e-05 res_av:2.054373e-04 epsilon:1.000017e-07 mu:1.196732e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:5.621320e-06 res_av:3.409828e-05 epsilon:1.000017e-07 mu:1.466375e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:7.698826e-07 res_av:5.621320e-06 epsilon:1.000017e-07 mu:8.894861e-03 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:4.647418e-08 res_av:7.698826e-07 epsilon:1.000017e-07 mu:6.494608e-02 lambda:1.000000e+00
+cumiter:152 massloss:9.908688e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002 10:00 0.64% - Time elapsed (hours:min:sec)  0:00:21 Time remaining (hours:min)  0:54  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:9.712290e-04 res_av:1.085706e-02 epsilon:1.000011e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:1.295457e-04 res_av:9.712290e-04 epsilon:1.000011e-07 mu:8.945597e-03 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:2.163125e-05 res_av:1.295457e-04 epsilon:1.000011e-07 mu:1.193193e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:3.575743e-06 res_av:2.163125e-05 epsilon:1.000011e-07 mu:2.311496e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:4.944240e-07 res_av:3.575743e-06 epsilon:1.000011e-07 mu:1.398326e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:3.096970e-08 res_av:4.944240e-07 epsilon:1.000011e-07 mu:1.011289e-01 lambda:1.000000e+00
+cumiter:158 massloss:5.512039e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002 12:00 0.66% - Time elapsed (hours:min:sec)  0:00:22 Time remaining (hours:min)  0:55  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:2.101899e-03 res_av:1.151571e-02 epsilon:1.000012e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:1.800006e-04 res_av:2.101899e-03 epsilon:1.000012e-07 mu:1.825246e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:2.979082e-05 res_av:1.800006e-04 epsilon:1.000012e-07 mu:1.563088e-03 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:4.855968e-06 res_av:2.979082e-05 epsilon:1.000012e-07 mu:1.678389e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:6.293719e-07 res_av:4.855968e-06 epsilon:1.000012e-07 mu:1.029673e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:3.161287e-08 res_av:6.293719e-07 epsilon:1.000012e-07 mu:7.944520e-02 lambda:1.000000e+00
+cumiter:164 massloss:6.826236e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002 14:00 0.68% - Time elapsed (hours:min:sec)  0:00:22 Time remaining (hours:min)  0:53  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:1.061076e-03 res_av:2.311283e-02 epsilon:1.000023e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:1.888266e-06 res_av:1.061076e-03 epsilon:1.000023e-07 mu:4.590853e-03 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:4.420666e-10 res_av:1.888266e-06 epsilon:1.000023e-07 mu:2.647994e-02 lambda:1.000000e+00
+cumiter:167 massloss:1.031799e-11
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002 16:00 0.71% - Time elapsed (hours:min:sec)  0:00:23 Time remaining (hours:min)  0:53  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:9.487226e-04 res_av:1.957285e-02 epsilon:1.000020e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:1.093459e-04 res_av:9.487226e-04 epsilon:1.000020e-07 mu:4.847135e-03 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:1.832376e-05 res_av:1.093459e-04 epsilon:1.000020e-07 mu:5.586608e-04 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:3.033685e-06 res_av:1.832376e-05 epsilon:1.000020e-07 mu:2.728751e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:4.216441e-07 res_av:3.033685e-06 epsilon:1.000020e-07 mu:1.648193e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:2.688976e-08 res_av:4.216441e-07 epsilon:1.000020e-07 mu:1.185857e-01 lambda:1.000000e+00
+cumiter:173 massloss:4.199630e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002 18:00 0.73% - Time elapsed (hours:min:sec)  0:00:24 Time remaining (hours:min)  0:54  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:1.700115e-03 res_av:2.998013e-02 epsilon:1.000030e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:1.822901e-04 res_av:1.700115e-03 epsilon:1.000030e-07 mu:5.670807e-03 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:1 res:3.024491e-05 res_av:1.822901e-04 epsilon:1.000030e-07 mu:6.080365e-04 lambda:1.000000e+00
+iter:1/4 cont:4 cont2:1 res:4.966230e-06 res_av:3.024491e-05 epsilon:1.000030e-07 mu:1.653220e-03 lambda:1.000000e+00
+iter:1/5 cont:5 cont2:1 res:6.663708e-07 res_av:4.966230e-06 epsilon:1.000030e-07 mu:1.006830e-02 lambda:1.000000e+00
+iter:1/6 cont:6 cont2:1 res:3.736055e-08 res_av:6.663708e-07 epsilon:1.000030e-07 mu:7.503555e-02 lambda:1.000000e+00
+cumiter:179 massloss:8.804157e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002 20:00 0.75% - Time elapsed (hours:min:sec)  0:00:24 Time remaining (hours:min)  0:52  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.492873e-03 res_av:8.583509e-03 epsilon:1.000009e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:3 res:3.318339e-03 res_av:3.492873e-03 epsilon:1.000009e-07 mu:4.069284e-02 lambda:5.000000e-02
+iter:1/3 cont:3 cont2:4 res:3.301749e-03 res_av:3.318339e-03 epsilon:1.000009e-07 mu:3.865947e-02 lambda:5.000000e-03
+iter:1/4 cont:4 cont2:4 res:3.285242e-03 res_av:3.301749e-03 epsilon:1.000009e-07 mu:3.846619e-02 lambda:5.000000e-03
+iter:1/5 cont:5 cont2:4 res:3.269421e-03 res_av:3.285242e-03 epsilon:1.000009e-07 mu:3.827388e-02 lambda:5.000000e-03
+iter:1/6 cont:6 cont2:6 res:3.268478e-03 res_av:3.269421e-03 epsilon:1.000009e-07 mu:3.808956e-02 lambda:8.007136e-04
+iter:1/7 cont:7 cont2:5 res:3.262802e-03 res_av:3.268478e-03 epsilon:1.000009e-07 mu:3.807858e-02 lambda:2.352822e-03
+iter:1/8 cont:8 cont2:6 res:3.261179e-03 res_av:3.262802e-03 epsilon:1.000009e-07 mu:3.801245e-02 lambda:9.779262e-04
+iter:1/9 cont:9 cont2:6 res:3.258182e-03 res_av:3.261179e-03 epsilon:1.000009e-07 mu:3.799354e-02 lambda:1.015008e-03
+iter:1/10 cont:10 cont2:6 res:3.257024e-03 res_av:3.258182e-03 epsilon:1.000009e-07 mu:3.795863e-02 lambda:7.986131e-04
+iter:1/11 cont:11 cont2:6 res:3.253843e-03 res_av:3.257024e-03 epsilon:1.000009e-07 mu:3.794513e-02 lambda:1.024062e-03
+iter:1/12 cont:12 cont2:6 res:3.252033e-03 res_av:3.253843e-03 epsilon:1.000009e-07 mu:3.790807e-02 lambda:8.719267e-04
+iter:1/13 cont:13 cont2:6 res:3.250766e-03 res_av:3.252033e-03 epsilon:1.000009e-07 mu:3.788699e-02 lambda:6.906588e-04
+iter:1/14 cont:14 cont2:6 res:3.249578e-03 res_av:3.250766e-03 epsilon:1.000009e-07 mu:3.787222e-02 lambda:6.214744e-04
+iter:1/15 cont:15 cont2:6 res:3.248678e-03 res_av:3.249578e-03 epsilon:1.000009e-07 mu:3.785838e-02 lambda:5.296432e-04
+iter:1/16 cont:16 cont2:6 res:3.247041e-03 res_av:3.248678e-03 epsilon:1.000009e-07 mu:3.784791e-02 lambda:6.621894e-04
+iter:1/17 cont:17 cont2:6 res:3.245552e-03 res_av:3.247041e-03 epsilon:1.000009e-07 mu:3.782883e-02 lambda:5.956215e-04
+iter:1/18 cont:18 cont2:6 res:3.244435e-03 res_av:3.245552e-03 epsilon:1.000009e-07 mu:3.781149e-02 lambda:4.526737e-04
+iter:1/19 cont:19 cont2:6 res:3.243776e-03 res_av:3.244435e-03 epsilon:1.000009e-07 mu:3.779847e-02 lambda:3.778168e-04
+iter:1/20 cont:20 cont2:5 res:3.243462e-03 res_av:3.243776e-03 epsilon:1.000009e-07 mu:3.779079e-02 lambda:6.127784e-04
+iter:1/21 cont:21 cont2:5 res:3.242910e-03 res_av:3.243462e-03 epsilon:1.000009e-07 mu:3.778713e-02 lambda:5.264222e-04
+iter:1/22 cont:22 cont2:5 res:3.242387e-03 res_av:3.242910e-03 epsilon:1.000009e-07 mu:3.778070e-02 lambda:5.000000e-04
+iter:1/23 cont:23 cont2:5 res:3.241931e-03 res_av:3.242387e-03 epsilon:1.000009e-07 mu:3.777461e-02 lambda:5.000000e-04
+iter:1/24 cont:24 cont2:5 res:3.241694e-03 res_av:3.241931e-03 epsilon:1.000009e-07 mu:3.776930e-02 lambda:5.000000e-04
+iter:1/25 cont:25 cont2:5 res:3.241012e-03 res_av:3.241694e-03 epsilon:1.000009e-07 mu:3.776654e-02 lambda:5.000000e-04
+iter:1/26 cont:26 cont2:6 res:3.240590e-03 res_av:3.241012e-03 epsilon:1.000009e-07 mu:3.775859e-02 lambda:2.386357e-04
+iter:1/27 cont:27 cont2:6 res:3.240148e-03 res_av:3.240590e-03 epsilon:1.000009e-07 mu:3.775367e-02 lambda:2.444810e-04
+iter:1/28 cont:28 cont2:6 res:3.239490e-03 res_av:3.240148e-03 epsilon:1.000009e-07 mu:3.774852e-02 lambda:2.484943e-04
+iter:1/29 cont:29 cont2:6 res:3.238947e-03 res_av:3.239490e-03 epsilon:1.000009e-07 mu:3.774086e-02 lambda:2.439279e-04
+iter:1/30 cont:30 cont2:6 res:3.238646e-03 res_av:3.238947e-03 epsilon:1.000009e-07 mu:3.773453e-02 lambda:2.344391e-04
+iter:1/31 cont:31 cont2:6 res:3.238108e-03 res_av:3.238646e-03 epsilon:1.000009e-07 mu:3.773103e-02 lambda:2.472216e-04
+iter:1/32 cont:32 cont2:6 res:3.237669e-03 res_av:3.238108e-03 epsilon:1.000009e-07 mu:3.772476e-02 lambda:2.383702e-04
+iter:1/33 cont:33 cont2:6 res:3.237229e-03 res_av:3.237669e-03 epsilon:1.000009e-07 mu:3.771965e-02 lambda:2.409277e-04
+iter:1/34 cont:34 cont2:6 res:3.236738e-03 res_av:3.237229e-03 epsilon:1.000009e-07 mu:3.771451e-02 lambda:2.385094e-04
+iter:1/35 cont:35 cont2:6 res:3.236367e-03 res_av:3.236738e-03 epsilon:1.000009e-07 mu:3.770880e-02 lambda:2.393937e-04
+iter:1/36 cont:36 cont2:6 res:3.236066e-03 res_av:3.236367e-03 epsilon:1.000009e-07 mu:3.770448e-02 lambda:2.301512e-04
+iter:1/37 cont:37 cont2:6 res:3.235869e-03 res_av:3.236066e-03 epsilon:1.000009e-07 mu:3.770097e-02 lambda:2.306667e-04
+iter:1/38 cont:38 cont2:6 res:3.235580e-03 res_av:3.235869e-03 epsilon:1.000009e-07 mu:3.769868e-02 lambda:2.317719e-04
+iter:1/39 cont:39 cont2:6 res:3.235339e-03 res_av:3.235580e-03 epsilon:1.000009e-07 mu:3.769531e-02 lambda:2.294267e-04
+iter:1/40 cont:40 cont2:6 res:3.235197e-03 res_av:3.235339e-03 epsilon:1.000009e-07 mu:3.769249e-02 lambda:2.227135e-04
+iter:1/41 cont:41 cont2:7 res:3.234959e-03 res_av:3.235197e-03 epsilon:1.000009e-07 mu:3.769085e-02 lambda:1.071658e-04
+iter:1/42 cont:42 cont2:6 res:3.234884e-03 res_av:3.234959e-03 epsilon:1.000009e-07 mu:3.768808e-02 lambda:2.163330e-04
+iter:1/43 cont:43 cont2:7 res:3.234651e-03 res_av:3.234884e-03 epsilon:1.000009e-07 mu:3.768719e-02 lambda:9.842851e-05
+iter:1/44 cont:44 cont2:7 res:3.234432e-03 res_av:3.234651e-03 epsilon:1.000009e-07 mu:3.768449e-02 lambda:9.776854e-05
+iter:1/45 cont:45 cont2:6 res:3.234317e-03 res_av:3.234432e-03 epsilon:1.000009e-07 mu:3.768193e-02 lambda:2.192585e-04
+iter:1/46 cont:46 cont2:6 res:3.234198e-03 res_av:3.234317e-03 epsilon:1.000009e-07 mu:3.768059e-02 lambda:2.198595e-04
+iter:1/47 cont:47 cont2:6 res:3.234048e-03 res_av:3.234198e-03 epsilon:1.000009e-07 mu:3.767920e-02 lambda:2.220765e-04
+iter:1/48 cont:48 cont2:6 res:3.233895e-03 res_av:3.234048e-03 epsilon:1.000009e-07 mu:3.767746e-02 lambda:2.193963e-04
+iter:1/49 cont:49 cont2:6 res:3.233869e-03 res_av:3.233895e-03 epsilon:1.000009e-07 mu:3.767568e-02 lambda:2.087038e-04
+iter:1/50 cont:50 cont2:6 res:3.233837e-03 res_av:3.233869e-03 epsilon:1.000009e-07 mu:3.767538e-02 lambda:2.099807e-04
+iter:1/51 cont:51 cont2:6 res:3.233640e-03 res_av:3.233837e-03 epsilon:1.000009e-07 mu:3.767500e-02 lambda:2.215904e-04
+iter:1/52 cont:52 cont2:6 res:3.233390e-03 res_av:3.233640e-03 epsilon:1.000009e-07 mu:3.767270e-02 lambda:2.218163e-04
+iter:1/53 cont:53 cont2:6 res:3.233156e-03 res_av:3.233390e-03 epsilon:1.000009e-07 mu:3.766979e-02 lambda:2.173657e-04
+iter:1/54 cont:54 cont2:6 res:3.232941e-03 res_av:3.233156e-03 epsilon:1.000009e-07 mu:3.766707e-02 lambda:2.181354e-04
+iter:1/55 cont:55 cont2:6 res:3.232623e-03 res_av:3.232941e-03 epsilon:1.000009e-07 mu:3.766456e-02 lambda:2.237150e-04
+iter:1/56 cont:56 cont2:6 res:3.232341e-03 res_av:3.232623e-03 epsilon:1.000009e-07 mu:3.766086e-02 lambda:2.199919e-04
+iter:1/57 cont:57 cont2:6 res:3.232026e-03 res_av:3.232341e-03 epsilon:1.000009e-07 mu:3.765758e-02 lambda:2.136654e-04
+iter:1/58 cont:58 cont2:6 res:3.231773e-03 res_av:3.232026e-03 epsilon:1.000009e-07 mu:3.765391e-02 lambda:2.106942e-04
+iter:1/59 cont:59 cont2:6 res:3.231500e-03 res_av:3.231773e-03 epsilon:1.000009e-07 mu:3.765095e-02 lambda:2.058979e-04
+iter:1/60 cont:60 cont2:6 res:3.231119e-03 res_av:3.231500e-03 epsilon:1.000009e-07 mu:3.764778e-02 lambda:2.187471e-04
+iter:1/61 cont:61 cont2:6 res:3.230841e-03 res_av:3.231119e-03 epsilon:1.000009e-07 mu:3.764333e-02 lambda:2.158240e-04
+iter:1/62 cont:62 cont2:6 res:3.230279e-03 res_av:3.230841e-03 epsilon:1.000009e-07 mu:3.764009e-02 lambda:2.372212e-04
+iter:1/63 cont:63 cont2:6 res:3.229864e-03 res_av:3.230279e-03 epsilon:1.000009e-07 mu:3.763355e-02 lambda:2.287480e-04
+iter:1/64 cont:64 cont2:6 res:3.229291e-03 res_av:3.229864e-03 epsilon:1.000009e-07 mu:3.762872e-02 lambda:2.412870e-04
+iter:1/65 cont:65 cont2:6 res:3.228840e-03 res_av:3.229291e-03 epsilon:1.000009e-07 mu:3.762204e-02 lambda:2.380116e-04
+iter:1/66 cont:66 cont2:5 res:3.228663e-03 res_av:3.228840e-03 epsilon:1.000009e-07 mu:3.761679e-02 lambda:5.000000e-04
+iter:1/67 cont:67 cont2:5 res:3.228531e-03 res_av:3.228663e-03 epsilon:1.000009e-07 mu:3.761472e-02 lambda:5.000000e-04
+iter:1/68 cont:68 cont2:5 res:3.227952e-03 res_av:3.228531e-03 epsilon:1.000009e-07 mu:3.761318e-02 lambda:5.000000e-04
+iter:1/69 cont:69 cont2:5 res:3.227445e-03 res_av:3.227952e-03 epsilon:1.000009e-07 mu:3.760643e-02 lambda:5.000000e-04
+iter:1/70 cont:70 cont2:5 res:3.226476e-03 res_av:3.227445e-03 epsilon:1.000009e-07 mu:3.760053e-02 lambda:5.000000e-04
+iter:1/71 cont:71 cont2:5 res:3.225822e-03 res_av:3.226476e-03 epsilon:1.000009e-07 mu:3.758924e-02 lambda:5.000000e-04
+iter:1/72 cont:72 cont2:5 res:3.225042e-03 res_av:3.225822e-03 epsilon:1.000009e-07 mu:3.758163e-02 lambda:5.000000e-04
+iter:1/73 cont:73 cont2:5 res:3.224547e-03 res_av:3.225042e-03 epsilon:1.000009e-07 mu:3.757254e-02 lambda:5.000000e-04
+iter:1/74 cont:74 cont2:5 res:3.223317e-03 res_av:3.224547e-03 epsilon:1.000009e-07 mu:3.756677e-02 lambda:5.000000e-04
+iter:1/75 cont:75 cont2:5 res:3.221885e-03 res_av:3.223317e-03 epsilon:1.000009e-07 mu:3.755244e-02 lambda:5.000000e-04
+iter:1/76 cont:76 cont2:5 res:3.220785e-03 res_av:3.221885e-03 epsilon:1.000009e-07 mu:3.753576e-02 lambda:5.000000e-04
+iter:1/77 cont:77 cont2:5 res:3.219439e-03 res_av:3.220785e-03 epsilon:1.000009e-07 mu:3.752294e-02 lambda:5.000000e-04
+iter:1/78 cont:78 cont2:5 res:3.217914e-03 res_av:3.219439e-03 epsilon:1.000009e-07 mu:3.750726e-02 lambda:5.000000e-04
+iter:1/79 cont:79 cont2:5 res:3.216747e-03 res_av:3.217914e-03 epsilon:1.000009e-07 mu:3.748949e-02 lambda:5.000000e-04
+iter:1/80 cont:80 cont2:5 res:3.215061e-03 res_av:3.216747e-03 epsilon:1.000009e-07 mu:3.747590e-02 lambda:5.477873e-04
+iter:1/81 cont:81 cont2:5 res:3.212287e-03 res_av:3.215061e-03 epsilon:1.000009e-07 mu:3.745625e-02 lambda:1.038874e-03
+iter:1/82 cont:82 cont2:5 res:3.209767e-03 res_av:3.212287e-03 epsilon:1.000009e-07 mu:3.742394e-02 lambda:1.319919e-03
+iter:1/83 cont:83 cont2:5 res:3.206459e-03 res_av:3.209767e-03 epsilon:1.000009e-07 mu:3.739457e-02 lambda:1.472078e-03
+iter:1/84 cont:84 cont2:5 res:3.201215e-03 res_av:3.206459e-03 epsilon:1.000009e-07 mu:3.735604e-02 lambda:2.369297e-03
+iter:1/85 cont:85 cont2:5 res:3.197457e-03 res_av:3.201215e-03 epsilon:1.000009e-07 mu:3.729495e-02 lambda:1.920835e-03
+iter:1/86 cont:86 cont2:4 res:3.192355e-03 res_av:3.197457e-03 epsilon:1.000009e-07 mu:3.725116e-02 lambda:5.000000e-03
+iter:1/87 cont:87 cont2:1 res:1.762528e-04 res_av:3.192355e-03 epsilon:1.000009e-07 mu:3.719173e-02 lambda:1.000000e+00
+iter:1/88 cont:88 cont2:1 res:2.946807e-05 res_av:1.762528e-04 epsilon:1.000009e-07 mu:2.053389e-03 lambda:1.000000e+00
+iter:1/89 cont:89 cont2:1 res:4.855649e-06 res_av:2.946807e-05 epsilon:1.000009e-07 mu:1.696766e-03 lambda:1.000000e+00
+iter:1/90 cont:90 cont2:1 res:6.594205e-07 res_av:4.855649e-06 epsilon:1.000009e-07 mu:1.029737e-02 lambda:1.000000e+00
+iter:1/91 cont:91 cont2:1 res:3.852490e-08 res_av:6.594205e-07 epsilon:1.000009e-07 mu:7.582480e-02 lambda:1.000000e+00
+cumiter:270 massloss:9.822953e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+4/1/2002 22:00 0.78% - Time elapsed (hours:min:sec)  0:00:40 Time remaining (hours:min)  1:25  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:2.206169e-02 res_av:2.082357e-01 epsilon:1.000208e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:4 res:2.195138e-02 res_av:2.206169e-02 epsilon:1.000208e-07 mu:1.059457e-02 lambda:5.000000e-03
+iter:1/3 cont:3 cont2:4 res:2.184163e-02 res_av:2.195138e-02 epsilon:1.000208e-07 mu:1.054160e-02 lambda:5.000000e-03
+iter:1/4 cont:4 cont2:4 res:2.173242e-02 res_av:2.184163e-02 epsilon:1.000208e-07 mu:1.048889e-02 lambda:5.000000e-03
+iter:1/5 cont:5 cont2:4 res:2.162376e-02 res_av:2.173242e-02 epsilon:1.000208e-07 mu:1.043645e-02 lambda:5.000000e-03
+iter:1/6 cont:6 cont2:5 res:2.159444e-02 res_av:2.162376e-02 epsilon:1.000208e-07 mu:1.038427e-02 lambda:1.612931e-03
+iter:1/7 cont:7 cont2:6 res:2.159190e-02 res_av:2.159444e-02 epsilon:1.000208e-07 mu:1.037019e-02 lambda:1.172785e-04
+iter:1/8 cont:8 cont2:6 res:2.158946e-02 res_av:2.159190e-02 epsilon:1.000208e-07 mu:1.036897e-02 lambda:1.132889e-04
+iter:1/9 cont:9 cont2:6 res:2.158710e-02 res_av:2.158946e-02 epsilon:1.000208e-07 mu:1.036780e-02 lambda:1.094413e-04
+iter:1/10 cont:10 cont2:6 res:2.158513e-02 res_av:2.158710e-02 epsilon:1.000208e-07 mu:1.036666e-02 lambda:1.057301e-04
+iter:1/11 cont:11 cont2:6 res:2.158263e-02 res_av:2.158513e-02 epsilon:1.000208e-07 mu:1.036572e-02 lambda:1.159621e-04
+iter:1/12 cont:12 cont2:6 res:2.158021e-02 res_av:2.158263e-02 epsilon:1.000208e-07 mu:1.036452e-02 lambda:1.123579e-04
+iter:1/13 cont:13 cont2:6 res:2.157788e-02 res_av:2.158021e-02 epsilon:1.000208e-07 mu:1.036335e-02 lambda:1.088715e-04
+iter:1/14 cont:14 cont2:7 res:2.157742e-02 res_av:2.157788e-02 epsilon:1.000208e-07 mu:1.036223e-02 lambda:3.762975e-05
+iter:1/15 cont:15 cont2:7 res:2.157714e-02 res_av:2.157742e-02 epsilon:1.000208e-07 mu:1.036202e-02 lambda:1.318207e-05
+iter:1/16 cont:16 cont2:7 res:2.157685e-02 res_av:2.157714e-02 epsilon:1.000208e-07 mu:1.036188e-02 lambda:1.314838e-05
+iter:1/17 cont:17 cont2:7 res:2.157657e-02 res_av:2.157685e-02 epsilon:1.000208e-07 mu:1.036174e-02 lambda:1.311477e-05
+iter:1/18 cont:18 cont2:7 res:2.157629e-02 res_av:2.157657e-02 epsilon:1.000208e-07 mu:1.036161e-02 lambda:1.308126e-05
+iter:1/19 cont:19 cont2:7 res:2.157607e-02 res_av:2.157629e-02 epsilon:1.000208e-07 mu:1.036147e-02 lambda:1.304785e-05
+iter:1/20 cont:20 cont2:8 res:2.157604e-02 res_av:2.157607e-02 epsilon:1.000208e-07 mu:1.036137e-02 lambda:1.436866e-06
+iter:1/21 cont:21 cont2:8 res:2.157601e-02 res_av:2.157604e-02 epsilon:1.000208e-07 mu:1.036135e-02 lambda:1.436537e-06
+iter:1/22 cont:22 cont2:9 res:2.157601e-02 res_av:2.157601e-02 epsilon:1.000208e-07 mu:1.036134e-02 lambda:1.436208e-07
+iter:1/23 cont:23 cont2:8 res:2.157589e-02 res_av:2.157601e-02 epsilon:1.000208e-07 mu:1.036134e-02 lambda:6.111022e-06
+iter:1/24 cont:24 cont2:7 res:2.157581e-02 res_av:2.157589e-02 epsilon:1.000208e-07 mu:1.036128e-02 lambda:1.703069e-05
+iter:1/25 cont:25 cont2:8 res:2.157581e-02 res_av:2.157581e-02 epsilon:1.000208e-07 mu:1.036124e-02 lambda:1.833613e-06
+iter:1/26 cont:26 cont2:7 res:2.157539e-02 res_av:2.157581e-02 epsilon:1.000208e-07 mu:1.036124e-02 lambda:1.965770e-05
+iter:1/27 cont:27 cont2:7 res:2.157496e-02 res_av:2.157539e-02 epsilon:1.000208e-07 mu:1.036104e-02 lambda:1.963293e-05
+iter:1/28 cont:28 cont2:7 res:2.157454e-02 res_av:2.157496e-02 epsilon:1.000208e-07 mu:1.036084e-02 lambda:1.960821e-05
+iter:1/29 cont:29 cont2:7 res:2.157430e-02 res_av:2.157454e-02 epsilon:1.000208e-07 mu:1.036063e-02 lambda:1.958352e-05
+iter:1/30 cont:30 cont2:7 res:2.157385e-02 res_av:2.157430e-02 epsilon:1.000208e-07 mu:1.036052e-02 lambda:2.087537e-05
+iter:1/31 cont:31 cont2:7 res:2.157366e-02 res_av:2.157385e-02 epsilon:1.000208e-07 mu:1.036030e-02 lambda:2.085434e-05
+iter:1/32 cont:32 cont2:8 res:2.157361e-02 res_av:2.157366e-02 epsilon:1.000208e-07 mu:1.036021e-02 lambda:2.213246e-06
+iter:1/33 cont:33 cont2:8 res:2.157356e-02 res_av:2.157361e-02 epsilon:1.000208e-07 mu:1.036019e-02 lambda:2.213078e-06
+iter:1/34 cont:34 cont2:8 res:2.157355e-02 res_av:2.157356e-02 epsilon:1.000208e-07 mu:1.036016e-02 lambda:2.212909e-06
+iter:1/35 cont:35 cont2:8 res:2.157350e-02 res_av:2.157355e-02 epsilon:1.000208e-07 mu:1.036016e-02 lambda:2.343198e-06
+iter:1/36 cont:36 cont2:6 res:2.156817e-02 res_av:2.157350e-02 epsilon:1.000208e-07 mu:1.036013e-02 lambda:2.472803e-04
+iter:1/37 cont:37 cont2:7 res:2.156764e-02 res_av:2.156817e-02 epsilon:1.000208e-07 mu:1.035757e-02 lambda:2.466155e-05
+iter:1/38 cont:38 cont2:8 res:2.156754e-02 res_av:2.156764e-02 epsilon:1.000208e-07 mu:1.035732e-02 lambda:5.012953e-06
+iter:1/39 cont:39 cont2:4 res:2.145970e-02 res_av:2.156754e-02 epsilon:1.000208e-07 mu:1.035727e-02 lambda:5.000000e-03
+iter:1/40 cont:40 cont2:4 res:2.135241e-02 res_av:2.145970e-02 epsilon:1.000208e-07 mu:1.030549e-02 lambda:5.000000e-03
+iter:1/41 cont:41 cont2:4 res:2.124565e-02 res_av:2.135241e-02 epsilon:1.000208e-07 mu:1.025396e-02 lambda:5.000000e-03
+iter:1/42 cont:42 cont2:5 res:2.123502e-02 res_av:2.124565e-02 epsilon:1.000208e-07 mu:1.020269e-02 lambda:5.000000e-04
+iter:1/43 cont:43 cont2:5 res:2.122453e-02 res_av:2.123502e-02 epsilon:1.000208e-07 mu:1.019759e-02 lambda:5.000000e-04
+iter:1/44 cont:44 cont2:5 res:2.121407e-02 res_av:2.122453e-02 epsilon:1.000208e-07 mu:1.019255e-02 lambda:5.000000e-04
+iter:1/45 cont:45 cont2:5 res:2.120495e-02 res_av:2.121407e-02 epsilon:1.000208e-07 mu:1.018753e-02 lambda:5.000000e-04
+iter:1/46 cont:46 cont2:6 res:2.120094e-02 res_av:2.120495e-02 epsilon:1.000208e-07 mu:1.018315e-02 lambda:2.460525e-04
+iter:1/47 cont:47 cont2:6 res:2.119852e-02 res_av:2.120094e-02 epsilon:1.000208e-07 mu:1.018122e-02 lambda:2.223274e-04
+iter:1/48 cont:48 cont2:6 res:2.119742e-02 res_av:2.119852e-02 epsilon:1.000208e-07 mu:1.018006e-02 lambda:1.799688e-04
+iter:1/49 cont:49 cont2:6 res:2.119654e-02 res_av:2.119742e-02 epsilon:1.000208e-07 mu:1.017953e-02 lambda:1.353734e-04
+iter:1/50 cont:50 cont2:6 res:2.119536e-02 res_av:2.119654e-02 epsilon:1.000208e-07 mu:1.017911e-02 lambda:1.182109e-04
+iter:1/51 cont:51 cont2:6 res:2.119405e-02 res_av:2.119536e-02 epsilon:1.000208e-07 mu:1.017854e-02 lambda:1.112291e-04
+iter:1/52 cont:52 cont2:6 res:2.119232e-02 res_av:2.119405e-02 epsilon:1.000208e-07 mu:1.017791e-02 lambda:1.346857e-04
+iter:1/53 cont:53 cont2:6 res:2.118985e-02 res_av:2.119232e-02 epsilon:1.000208e-07 mu:1.017708e-02 lambda:1.848775e-04
+iter:1/54 cont:54 cont2:5 res:2.118518e-02 res_av:2.118985e-02 epsilon:1.000208e-07 mu:1.017590e-02 lambda:5.000000e-04
+iter:1/55 cont:55 cont2:5 res:2.116572e-02 res_av:2.118518e-02 epsilon:1.000208e-07 mu:1.017365e-02 lambda:1.393505e-03
+iter:1/56 cont:56 cont2:1 res:2.023987e-04 res_av:2.116572e-02 epsilon:1.000208e-07 mu:1.016431e-02 lambda:1.000000e+00
+iter:1/57 cont:57 cont2:1 res:3.356445e-05 res_av:2.023987e-04 epsilon:1.000208e-07 mu:2.470886e-04 lambda:1.000000e+00
+iter:1/58 cont:58 cont2:1 res:5.530897e-06 res_av:3.356445e-05 epsilon:1.000208e-07 mu:1.489982e-03 lambda:1.000000e+00
+iter:1/59 cont:59 cont2:1 res:7.552734e-07 res_av:5.530897e-06 epsilon:1.000208e-07 mu:9.042008e-03 lambda:1.000000e+00
+iter:1/60 cont:60 cont2:1 res:4.503086e-08 res_av:7.552734e-07 epsilon:1.000208e-07 mu:6.621498e-02 lambda:1.000000e+00
+cumiter:330 massloss:9.619877e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+5/1/2002  0:00 0.80% - Time elapsed (hours:min:sec)  0:00:51 Time remaining (hours:min)  1:45  
+
+5/1/2002  0:00 JD:3.958333 (3^ simulation day)  0.82% completed! 
+ SW=0.000000 W/m2  LW:0.000000 W/m2  H=  0.00 W/m2  LE=  0.00 W/m2 
+ Prain=  0.00 mm  Psnow=  0.00 mm  
+ Max Error Richards=2.716570e-08 mm/h 
+ Tot Error Richards=1.211916e-06 mm
+
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:7.698872e-03 res_av:5.758566e-02 epsilon:1.000058e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:5.235861e-03 res_av:7.698872e-03 epsilon:1.000058e-07 mu:1.336943e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:5 res:5.232777e-03 res_av:5.235861e-03 epsilon:1.000058e-07 mu:9.092301e-03 lambda:5.000000e-04
+iter:1/4 cont:4 cont2:5 res:5.228384e-03 res_av:5.232777e-03 epsilon:1.000058e-07 mu:9.086945e-03 lambda:5.000000e-04
+iter:1/5 cont:5 cont2:5 res:5.224180e-03 res_av:5.228384e-03 epsilon:1.000058e-07 mu:9.079317e-03 lambda:5.000000e-04
+iter:1/6 cont:6 cont2:5 res:5.220674e-03 res_av:5.224180e-03 epsilon:1.000058e-07 mu:9.072016e-03 lambda:5.000000e-04
+iter:1/7 cont:7 cont2:5 res:5.217438e-03 res_av:5.220674e-03 epsilon:1.000058e-07 mu:9.065927e-03 lambda:5.000000e-04
+iter:1/8 cont:8 cont2:5 res:5.214345e-03 res_av:5.217438e-03 epsilon:1.000058e-07 mu:9.060308e-03 lambda:5.000000e-04
+iter:1/9 cont:9 cont2:5 res:5.211341e-03 res_av:5.214345e-03 epsilon:1.000058e-07 mu:9.054936e-03 lambda:5.000000e-04
+iter:1/10 cont:10 cont2:4 res:1.030273e-03 res_av:5.211341e-03 epsilon:1.000058e-07 mu:9.049720e-03 lambda:5.000000e-03
+iter:1/11 cont:11 cont2:4 res:1.025121e-03 res_av:1.030273e-03 epsilon:1.000058e-07 mu:1.789113e-03 lambda:5.000000e-03
+iter:1/12 cont:12 cont2:5 res:1.024609e-03 res_av:1.025121e-03 epsilon:1.000058e-07 mu:1.780168e-03 lambda:5.000000e-04
+iter:1/13 cont:13 cont2:5 res:1.024096e-03 res_av:1.024609e-03 epsilon:1.000058e-07 mu:1.779277e-03 lambda:5.000000e-04
+iter:1/14 cont:14 cont2:5 res:2.174345e-04 res_av:1.024096e-03 epsilon:1.000058e-07 mu:1.778388e-03 lambda:5.000000e-04
+iter:1/15 cont:15 cont2:1 res:1.713638e-05 res_av:2.174345e-04 epsilon:1.000058e-07 mu:3.775845e-04 lambda:1.000000e+00
+iter:1/16 cont:16 cont2:1 res:2.833738e-06 res_av:1.713638e-05 epsilon:1.000058e-07 mu:2.917938e-03 lambda:1.000000e+00
+iter:1/17 cont:17 cont2:1 res:3.928946e-07 res_av:2.833738e-06 epsilon:1.000058e-07 mu:1.764555e-02 lambda:1.000000e+00
+iter:1/18 cont:18 cont2:1 res:2.480951e-08 res_av:3.928946e-07 epsilon:1.000058e-07 mu:1.272679e-01 lambda:1.000000e+00
+cumiter:348 massloss:3.816388e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+5/1/2002  2:00 0.82% - Time elapsed (hours:min:sec)  0:00:53 Time remaining (hours:min)  1:46  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:5.733350e-03 res_av:4.058129e-02 epsilon:1.000041e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:5.346961e-03 res_av:5.733350e-03 epsilon:1.000041e-07 mu:1.412806e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:5 res:5.343764e-03 res_av:5.346961e-03 epsilon:1.000041e-07 mu:1.317593e-02 lambda:5.000000e-04
+iter:1/4 cont:4 cont2:5 res:5.339333e-03 res_av:5.343764e-03 epsilon:1.000041e-07 mu:1.316805e-02 lambda:5.000000e-04
+iter:1/5 cont:5 cont2:5 res:5.335153e-03 res_av:5.339333e-03 epsilon:1.000041e-07 mu:1.315713e-02 lambda:5.000000e-04
+iter:1/6 cont:6 cont2:5 res:5.331596e-03 res_av:5.335153e-03 epsilon:1.000041e-07 mu:1.314683e-02 lambda:5.000000e-04
+iter:1/7 cont:7 cont2:5 res:5.328301e-03 res_av:5.331596e-03 epsilon:1.000041e-07 mu:1.313807e-02 lambda:5.000000e-04
+iter:1/8 cont:8 cont2:5 res:5.325147e-03 res_av:5.328301e-03 epsilon:1.000041e-07 mu:1.312995e-02 lambda:5.000000e-04
+iter:1/9 cont:9 cont2:5 res:5.322082e-03 res_av:5.325147e-03 epsilon:1.000041e-07 mu:1.312217e-02 lambda:5.000000e-04
+iter:1/10 cont:10 cont2:4 res:9.192630e-04 res_av:5.322082e-03 epsilon:1.000041e-07 mu:1.311462e-02 lambda:5.000000e-03
+iter:1/11 cont:11 cont2:4 res:9.146667e-04 res_av:9.192630e-04 epsilon:1.000041e-07 mu:2.265239e-03 lambda:5.000000e-03
+iter:1/12 cont:12 cont2:5 res:9.142094e-04 res_av:9.146667e-04 epsilon:1.000041e-07 mu:2.253913e-03 lambda:5.000000e-04
+iter:1/13 cont:13 cont2:5 res:9.137523e-04 res_av:9.142094e-04 epsilon:1.000041e-07 mu:2.252786e-03 lambda:5.000000e-04
+iter:1/14 cont:14 cont2:5 res:9.132954e-04 res_av:9.137523e-04 epsilon:1.000041e-07 mu:2.251659e-03 lambda:5.000000e-04
+iter:1/15 cont:15 cont2:6 res:9.132498e-04 res_av:9.132954e-04 epsilon:1.000041e-07 mu:2.250533e-03 lambda:5.000000e-05
+iter:1/16 cont:16 cont2:6 res:8.912076e-04 res_av:9.132498e-04 epsilon:1.000041e-07 mu:2.250421e-03 lambda:5.000000e-05
+iter:1/17 cont:17 cont2:3 res:2.631858e-04 res_av:8.912076e-04 epsilon:1.000041e-07 mu:2.196105e-03 lambda:2.308072e-01
+iter:1/18 cont:18 cont2:1 res:1.716703e-05 res_av:2.631858e-04 epsilon:1.000041e-07 mu:6.485398e-04 lambda:1.000000e+00
+iter:1/19 cont:19 cont2:1 res:2.195090e-06 res_av:1.716703e-05 epsilon:1.000041e-07 mu:2.912678e-03 lambda:1.000000e+00
+iter:1/20 cont:20 cont2:1 res:2.862590e-07 res_av:2.195090e-06 epsilon:1.000041e-07 mu:2.277903e-02 lambda:1.000000e+00
+iter:1/21 cont:21 cont2:1 res:1.443459e-08 res_av:2.862590e-07 epsilon:1.000041e-07 mu:1.746741e-01 lambda:1.000000e+00
+cumiter:369 massloss:2.745216e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+5/1/2002  4:00 0.84% - Time elapsed (hours:min:sec)  0:00:56 Time remaining (hours:min)  1:49  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:5.907089e-03 res_av:4.394600e-02 epsilon:1.000044e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:5.624887e-03 res_av:5.907089e-03 epsilon:1.000044e-07 mu:1.344170e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:5 res:5.620937e-03 res_av:5.624887e-03 epsilon:1.000044e-07 mu:1.279954e-02 lambda:5.000000e-04
+iter:1/4 cont:4 cont2:5 res:5.616115e-03 res_av:5.620937e-03 epsilon:1.000044e-07 mu:1.279055e-02 lambda:5.000000e-04
+iter:1/5 cont:5 cont2:5 res:5.612154e-03 res_av:5.616115e-03 epsilon:1.000044e-07 mu:1.277958e-02 lambda:5.000000e-04
+iter:1/6 cont:6 cont2:5 res:5.608585e-03 res_av:5.612154e-03 epsilon:1.000044e-07 mu:1.277057e-02 lambda:5.000000e-04
+iter:1/7 cont:7 cont2:5 res:5.605208e-03 res_av:5.608585e-03 epsilon:1.000044e-07 mu:1.276245e-02 lambda:5.000000e-04
+iter:1/8 cont:8 cont2:5 res:5.601944e-03 res_av:5.605208e-03 epsilon:1.000044e-07 mu:1.275476e-02 lambda:5.000000e-04
+iter:1/9 cont:9 cont2:4 res:3.770815e-03 res_av:5.601944e-03 epsilon:1.000044e-07 mu:1.274733e-02 lambda:5.000000e-03
+iter:1/10 cont:10 cont2:1 res:6.360494e-04 res_av:3.770815e-03 epsilon:1.000044e-07 mu:8.580563e-03 lambda:1.000000e+00
+iter:1/11 cont:11 cont2:4 res:6.328692e-04 res_av:6.360494e-04 epsilon:1.000044e-07 mu:1.447343e-03 lambda:5.000000e-03
+iter:1/12 cont:12 cont2:5 res:6.325528e-04 res_av:6.328692e-04 epsilon:1.000044e-07 mu:1.440106e-03 lambda:5.000000e-04
+iter:1/13 cont:13 cont2:5 res:6.322365e-04 res_av:6.325528e-04 epsilon:1.000044e-07 mu:1.439386e-03 lambda:5.000000e-04
+iter:1/14 cont:14 cont2:5 res:6.319204e-04 res_av:6.322365e-04 epsilon:1.000044e-07 mu:1.438667e-03 lambda:5.000000e-04
+iter:1/15 cont:15 cont2:5 res:6.316044e-04 res_av:6.319204e-04 epsilon:1.000044e-07 mu:1.437947e-03 lambda:5.000000e-04
+iter:1/16 cont:16 cont2:5 res:6.312886e-04 res_av:6.316044e-04 epsilon:1.000044e-07 mu:1.437228e-03 lambda:5.000000e-04
+iter:1/17 cont:17 cont2:5 res:6.309730e-04 res_av:6.312886e-04 epsilon:1.000044e-07 mu:1.436510e-03 lambda:5.000000e-04
+iter:1/18 cont:18 cont2:5 res:6.306575e-04 res_av:6.309730e-04 epsilon:1.000044e-07 mu:1.435791e-03 lambda:5.000000e-04
+iter:1/19 cont:19 cont2:5 res:6.303421e-04 res_av:6.306575e-04 epsilon:1.000044e-07 mu:1.435074e-03 lambda:5.000000e-04
+iter:1/20 cont:20 cont2:6 res:6.302697e-04 res_av:6.303421e-04 epsilon:1.000044e-07 mu:1.434356e-03 lambda:1.149407e-04
+iter:1/21 cont:21 cont2:6 res:6.302382e-04 res_av:6.302697e-04 epsilon:1.000044e-07 mu:1.434191e-03 lambda:5.000000e-05
+iter:1/22 cont:22 cont2:6 res:6.302067e-04 res_av:6.302382e-04 epsilon:1.000044e-07 mu:1.434119e-03 lambda:5.000000e-05
+iter:1/23 cont:23 cont2:6 res:6.301752e-04 res_av:6.302067e-04 epsilon:1.000044e-07 mu:1.434048e-03 lambda:5.000000e-05
+iter:1/24 cont:24 cont2:6 res:6.301436e-04 res_av:6.301752e-04 epsilon:1.000044e-07 mu:1.433976e-03 lambda:5.000000e-05
+iter:1/25 cont:25 cont2:6 res:6.301135e-04 res_av:6.301436e-04 epsilon:1.000044e-07 mu:1.433904e-03 lambda:5.000000e-05
+iter:1/26 cont:26 cont2:4 res:6.176951e-04 res_av:6.301135e-04 epsilon:1.000044e-07 mu:1.433836e-03 lambda:2.191701e-02
+iter:1/27 cont:27 cont2:2 res:4.591648e-04 res_av:6.176951e-04 epsilon:1.000044e-07 mu:1.405578e-03 lambda:5.000000e-01
+iter:1/28 cont:28 cont2:1 res:2.321935e-06 res_av:4.591648e-04 epsilon:1.000044e-07 mu:1.044839e-03 lambda:1.000000e+00
+iter:1/29 cont:29 cont2:1 res:2.645369e-07 res_av:2.321935e-06 epsilon:1.000044e-07 mu:2.153471e-02 lambda:1.000000e+00
+iter:1/30 cont:30 cont2:1 res:8.541292e-09 res_av:2.645369e-07 epsilon:1.000044e-07 mu:1.890179e-01 lambda:1.000000e+00
+cumiter:399 massloss:1.995581e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+5/1/2002  6:00 0.87% - Time elapsed (hours:min:sec)  0:01:00 Time remaining (hours:min)  1:54  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:5.952924e-03 res_av:4.581712e-02 epsilon:1.000046e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:5.626344e-03 res_av:5.952924e-03 epsilon:1.000046e-07 mu:1.299279e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:5 res:5.622898e-03 res_av:5.626344e-03 epsilon:1.000046e-07 mu:1.228000e-02 lambda:5.000000e-04
+iter:1/4 cont:4 cont2:5 res:5.618641e-03 res_av:5.622898e-03 epsilon:1.000046e-07 mu:1.227248e-02 lambda:5.000000e-04
+iter:1/5 cont:5 cont2:5 res:5.614538e-03 res_av:5.618641e-03 epsilon:1.000046e-07 mu:1.226319e-02 lambda:5.000000e-04
+iter:1/6 cont:6 cont2:5 res:5.610860e-03 res_av:5.614538e-03 epsilon:1.000046e-07 mu:1.225424e-02 lambda:5.000000e-04
+iter:1/7 cont:7 cont2:5 res:5.607415e-03 res_av:5.610860e-03 epsilon:1.000046e-07 mu:1.224621e-02 lambda:5.000000e-04
+iter:1/8 cont:8 cont2:5 res:5.604105e-03 res_av:5.607415e-03 epsilon:1.000046e-07 mu:1.223869e-02 lambda:5.000000e-04
+iter:1/9 cont:9 cont2:5 res:5.597373e-03 res_av:5.604105e-03 epsilon:1.000046e-07 mu:1.223147e-02 lambda:9.155732e-04
+iter:1/10 cont:10 cont2:4 res:4.838230e-03 res_av:5.597373e-03 epsilon:1.000046e-07 mu:1.221677e-02 lambda:5.000000e-03
+iter:1/11 cont:11 cont2:1 res:3.886919e-03 res_av:4.838230e-03 epsilon:1.000046e-07 mu:1.055987e-02 lambda:1.000000e+00
+iter:1/12 cont:12 cont2:1 res:6.351010e-04 res_av:3.886919e-03 epsilon:1.000046e-07 mu:8.483552e-03 lambda:1.000000e+00
+iter:1/13 cont:13 cont2:4 res:6.319255e-04 res_av:6.351010e-04 epsilon:1.000046e-07 mu:1.386165e-03 lambda:5.000000e-03
+iter:1/14 cont:14 cont2:5 res:6.316096e-04 res_av:6.319255e-04 epsilon:1.000046e-07 mu:1.379235e-03 lambda:5.000000e-04
+iter:1/15 cont:15 cont2:5 res:6.312938e-04 res_av:6.316096e-04 epsilon:1.000046e-07 mu:1.378545e-03 lambda:5.000000e-04
+iter:1/16 cont:16 cont2:5 res:6.309781e-04 res_av:6.312938e-04 epsilon:1.000046e-07 mu:1.377856e-03 lambda:5.000000e-04
+iter:1/17 cont:17 cont2:5 res:6.306626e-04 res_av:6.309781e-04 epsilon:1.000046e-07 mu:1.377167e-03 lambda:5.000000e-04
+iter:1/18 cont:18 cont2:5 res:6.303473e-04 res_av:6.306626e-04 epsilon:1.000046e-07 mu:1.376478e-03 lambda:5.000000e-04
+iter:1/19 cont:19 cont2:5 res:6.300321e-04 res_av:6.303473e-04 epsilon:1.000046e-07 mu:1.375790e-03 lambda:5.000000e-04
+iter:1/20 cont:20 cont2:5 res:6.297171e-04 res_av:6.300321e-04 epsilon:1.000046e-07 mu:1.375102e-03 lambda:5.000000e-04
+iter:1/21 cont:21 cont2:5 res:6.294023e-04 res_av:6.297171e-04 epsilon:1.000046e-07 mu:1.374414e-03 lambda:5.000000e-04
+iter:1/22 cont:22 cont2:5 res:6.290876e-04 res_av:6.294023e-04 epsilon:1.000046e-07 mu:1.373727e-03 lambda:5.000000e-04
+iter:1/23 cont:23 cont2:6 res:6.290561e-04 res_av:6.290876e-04 epsilon:1.000046e-07 mu:1.373040e-03 lambda:5.000000e-05
+iter:1/24 cont:24 cont2:6 res:6.290331e-04 res_av:6.290561e-04 epsilon:1.000046e-07 mu:1.372972e-03 lambda:5.000000e-05
+iter:1/25 cont:25 cont2:3 res:6.036253e-04 res_av:6.290331e-04 epsilon:1.000046e-07 mu:1.372921e-03 lambda:5.000000e-02
+iter:1/26 cont:26 cont2:1 res:3.951503e-04 res_av:6.036253e-04 epsilon:1.000046e-07 mu:1.317467e-03 lambda:1.000000e+00
+iter:1/27 cont:27 cont2:1 res:1.434106e-05 res_av:3.951503e-04 epsilon:1.000046e-07 mu:8.624512e-04 lambda:1.000000e+00
+iter:1/28 cont:28 cont2:1 res:4.504124e-08 res_av:1.434106e-05 epsilon:1.000046e-07 mu:3.486651e-03 lambda:1.000000e+00
+cumiter:427 massloss:6.832233e-08
+Time step ok: dt:7200.000000 Loss:0.000000 
+
+5/1/2002  8:00 0.89% - Time elapsed (hours:min:sec)  0:01:03 Time remaining (hours:min)  1:58  
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:5.873351e-03 res_av:4.508193e-02 epsilon:1.000045e-07 mu:1.000000e-01 lambda:1.000000e+00
+iter:1/2 cont:2 cont2:1 res:5.625564e-03 res_av:5.873351e-03 epsilon:1.000045e-07 mu:1.302817e-02 lambda:1.000000e+00
+iter:1/3 cont:3 cont2:5 res:5.622118e-03 res_av:5.625564e-03 epsilon:1.000045e-07 mu:1.247853e-02 lambda:5.000000e-04
+iter:1/4 cont:4 cont2:5 res:5.617861e-03 res_av:5.622118e-03 epsilon:1.000045e-07 mu:1.247089e-02 lambda:5.000000e-04
+iter:1/5 cont:5 cont2:5 res:5.613758e-03 res_av:5.617861e-03 epsilon:1.000045e-07 mu:1.246145e-02 lambda:5.000000e-04
+iter:1/6 cont:6 cont2:5 res:5.610081e-03 res_av:5.613758e-03 epsilon:1.000045e-07 mu:1.245235e-02 lambda:5.000000e-04

@@ -1,0 +1,31 @@
+Files of the errors in the simulation
+Valid pixels: 6117
+Number of nodes: 30585
+Novalue pixels: 3231
+Basin area: 244.680000 km2
+Channel pixels: 963
+
+n:1.000000 Dt:7200.000000 Dt0:7200.000000 te0:7200.000000 tb:0.000000 
+iter:1/1 cont:1 cont2:1 res:3.715114e-01 res_av:3.706733e+00 epsilon:1.000000e+00 mu:1.000000e-01 lambda:1.000000e+00
+iter:0/1 cont:2 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:3 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:4 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:5 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:6 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:7 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:8 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:9 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:10 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:11 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:12 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:13 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:14 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:15 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:16 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:17 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:18 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:19 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+iter:0/1 cont:20 cont2:1 res:3.715114e-01 res_av:3.715114e-01 epsilon:1.000000e+00 mu:1.345854e+00 lambda:1.000000e+00
+cumiter:1 massloss:3.270778e+01
+Time step ok: dt:7200.000000 Loss:32.707777 
+
