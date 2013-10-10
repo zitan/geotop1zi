@@ -1,1 +1,0 @@
-DATE[day/month/year hour:min],t[days],JDfrom0,JD,Q_tot[m3/s],Etot[kg/ha],EOCtot[kg/ha]
