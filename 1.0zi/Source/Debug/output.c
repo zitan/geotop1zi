@@ -1866,7 +1866,7 @@ void write_output_headers(long n, TIMES *times, WATER *wat, PAR *par, TOPO *top,
 		temp=join_strings(files->co[fQ]+1,textfile);
 		f=t_fopen(temp,"w");
 		//fprintf(f,"DATE[day/month/year hour:min],JDfrom0,JD,Q_tot[mc/s],Qsub_ch[mc/s],Qsup_ch[mc/s]\n");
-		fprintf(f,"DATE[day/month/year hour:min],t[days],JDfrom0,JD,Qsup_tot[m3/s],Qsub_tot[m3/s],Etot[kg/ha],EOCtot[kg/ha]\n");
+		fprintf(f,"DATE[day/month/year hour:min],t[days],JDfrom0,JD,Qsup_tot[m3/s],Qsub_tot[m3/s],Etot[kg],EOCtot[kg/ha]\n");
 		t_fclose(f);
 		free(temp);
 	}

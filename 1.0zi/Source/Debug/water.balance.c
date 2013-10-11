@@ -502,7 +502,7 @@ void supflow(double Dt, double **h, double **dh, TOPO *top, LAND *land, WATER *w
 	Conc=new_doublematrix(Nr,Nc);
 	initialize_doublematrix(Conc,0);
  			
-	  EroParaInit(cl, dl, land, sl);
+	  EroParaInit(cl, dl, land, sl);    //  initialize the erosion calculation parameters
 	
 		te=0.0;
 		
@@ -559,8 +559,8 @@ void supflow(double Dt, double **h, double **dh, TOPO *top, LAND *land, WATER *w
 				}
 			}
 				
-	    TranCap(TC,v, h, q, cl, dl, top, land, sl);
-        D_Cal(h, D, TC, q, Conc,top, land, wat, sl, par);
+	    TranCap(TC,v, h, q, cl, dl, top, land, sl);        // calculate transport capacity
+        D_Cal(h, D, TC, q, Conc,top, land, wat, sl, par);  // Calculate the flux btw soil and water
 		
 			for(r=1;r<=Nr;r++){
 				for(c=1;c<=Nc;c++){
@@ -587,7 +587,7 @@ void supflow(double Dt, double **h, double **dh, TOPO *top, LAND *land, WATER *w
 				}
 			}
 			
-          Erosion(dt, h, Conc, q, D, top, land, wat, sl, par, cnet, OCout);
+          Erosion(dt, h, Conc, q, D, top, land, wat, sl, par, cnet, OCout);   // calculate erosion based on mass balance of sediments
  
 			//Superficial flow to the channels
 			for(ch=1;ch<=cnet->r->nh;ch++){
@@ -1524,7 +1524,7 @@ void Erosion(double dt, double **h, DOUBLEMATRIX *Conc, DOUBLEMATRIX *q, DOUBLEM
      			  Conc->co[r][c]=(1000*D->co[r][c]*dt+Conc->co[r][c]*h[r][c]*lth[top->DD->co[r][c]+1]*b[top->DD->co[r][c]+1])/(lth[top->DD->co[r][c]+1]*b[top->DD->co[r][c]+1]*h[r][c]+q->co[r][c]*dx*dy*dt);
               	  if(Conc->co[r][c]<0){
 				  Conc->co[r][c]=0;
-				 // printf("haha\n");
+
 				  } 
 				  wat->dm->co[r][c]=wat->Min->co[r][c]*dt/(dx*dy/1.0E4)-q->co[r][c]*Conc->co[r][c]*dx*dy*dt/1.0E3/(dx*dy/1.0E4); 
 				  if(wat->dm->co[r][c]>0){wat->Mp->co[r][c]+=wat->dm->co[r][c];}
@@ -1639,7 +1639,8 @@ void channel_sedimport(double Dt, DOUBLEVECTOR *h, DOUBLEVECTOR *Mcin, DOUBLEVEC
 				}
 				if (ch_down == ch){
 				
-				*Eout += ( cnet->Conc->co[ch]*qch->co[ch]*Dt)/(par->total_pixel*dx*dy/1.0E4);	//kg/ha
+					 *Eout += cnet->Conc->co[ch]*qch->co[ch]*Dt;	// kg   total suspended sediments loss at the outlet
+
 				//outdoc+=dt*(q->co[r][c])*dx*dy*sl->docc->co[r][c]*1.0E-6;   //kg
 				//outpoc=outero*sl->pocc->co[r][c]*sl->er_r->co[1][r][c];  //kg
 				}
